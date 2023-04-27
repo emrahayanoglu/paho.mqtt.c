@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - debian-support
+      - debian-build
 
 jobs:
   build-deb:
