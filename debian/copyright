@@ -1,0 +1,3140 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: paho.mqtt.c
+Upstream-Contact: <preferred name and address to reach the upstream project>
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     .github/FUNDING.yml
+           .github/ISSUE_TEMPLATE/bug_report.md
+           .github/ISSUE_TEMPLATE/feature_request.md
+           .github/workflows/artifact_linux.yml
+           .github/workflows/artifact_macos.yml
+           .github/workflows/build_linux.yml
+           .github/workflows/build_macos.yml
+           .github/workflows/covsync.yml
+           .gitignore
+           .gitreview
+           .settings/org.eclipse.cdt.core.prefs
+           .travis.yml
+           CODE_OF_CONDUCT.md
+           CONTRIBUTING.md
+           PULL_REQUEST_TEMPLATE.md
+           README.md
+           SECURITY.md
+           android/Android.mk
+           appveyor.yml
+           cbuild.bat
+           cmake/CPackDebConfig.cmake.in
+           cmake/toolchain.linux-arm11.cmake
+           cmake/toolchain.win32.cmake
+           cmake/toolchain.win64.cmake
+           deploy_rsa.enc
+           dist/Makefile
+           dist/paho-c.spec
+           doc/DoxyfileV3AsyncAPI.in
+           doc/DoxyfileV3ClientAPI.in
+           doc/DoxyfileV3ClientInternal.in
+           doc/man/man1/paho_c_pub.1
+           doc/man/man1/paho_c_sub.1
+           doc/man/man1/paho_cs_pub.1
+           doc/man/man1/paho_cs_sub.1
+           doc/pahologo.png
+           docs/.nojekyll
+           docs/MQTTAsync/html/bc_s.png
+           docs/MQTTAsync/html/bdwn.png
+           docs/MQTTAsync/html/closed.png
+           docs/MQTTAsync/html/doc.png
+           docs/MQTTAsync/html/doxygen.css
+           docs/MQTTAsync/html/doxygen.png
+           docs/MQTTAsync/html/folderclosed.png
+           docs/MQTTAsync/html/folderopen.png
+           docs/MQTTAsync/html/nav_f.png
+           docs/MQTTAsync/html/nav_g.png
+           docs/MQTTAsync/html/nav_h.png
+           docs/MQTTAsync/html/open.png
+           docs/MQTTAsync/html/pahologo.png
+           docs/MQTTAsync/html/search/all_0.js
+           docs/MQTTAsync/html/search/all_1.js
+           docs/MQTTAsync/html/search/all_10.js
+           docs/MQTTAsync/html/search/all_11.js
+           docs/MQTTAsync/html/search/all_12.js
+           docs/MQTTAsync/html/search/all_13.js
+           docs/MQTTAsync/html/search/all_2.js
+           docs/MQTTAsync/html/search/all_3.js
+           docs/MQTTAsync/html/search/all_4.js
+           docs/MQTTAsync/html/search/all_5.js
+           docs/MQTTAsync/html/search/all_6.js
+           docs/MQTTAsync/html/search/all_7.js
+           docs/MQTTAsync/html/search/all_8.js
+           docs/MQTTAsync/html/search/all_9.js
+           docs/MQTTAsync/html/search/all_a.js
+           docs/MQTTAsync/html/search/all_b.js
+           docs/MQTTAsync/html/search/all_c.js
+           docs/MQTTAsync/html/search/all_d.js
+           docs/MQTTAsync/html/search/all_e.js
+           docs/MQTTAsync/html/search/all_f.js
+           docs/MQTTAsync/html/search/classes_0.js
+           docs/MQTTAsync/html/search/close.png
+           docs/MQTTAsync/html/search/defines_0.js
+           docs/MQTTAsync/html/search/enums_0.js
+           docs/MQTTAsync/html/search/enumvalues_0.js
+           docs/MQTTAsync/html/search/files_0.js
+           docs/MQTTAsync/html/search/functions_0.js
+           docs/MQTTAsync/html/search/mag_sel.png
+           docs/MQTTAsync/html/search/pages_0.js
+           docs/MQTTAsync/html/search/pages_1.js
+           docs/MQTTAsync/html/search/pages_2.js
+           docs/MQTTAsync/html/search/pages_3.js
+           docs/MQTTAsync/html/search/pages_4.js
+           docs/MQTTAsync/html/search/pages_5.js
+           docs/MQTTAsync/html/search/search.css
+           docs/MQTTAsync/html/search/search_l.png
+           docs/MQTTAsync/html/search/search_m.png
+           docs/MQTTAsync/html/search/search_r.png
+           docs/MQTTAsync/html/search/searchdata.js
+           docs/MQTTAsync/html/search/typedefs_0.js
+           docs/MQTTAsync/html/search/typedefs_1.js
+           docs/MQTTAsync/html/search/variables_0.js
+           docs/MQTTAsync/html/search/variables_1.js
+           docs/MQTTAsync/html/search/variables_10.js
+           docs/MQTTAsync/html/search/variables_11.js
+           docs/MQTTAsync/html/search/variables_12.js
+           docs/MQTTAsync/html/search/variables_13.js
+           docs/MQTTAsync/html/search/variables_2.js
+           docs/MQTTAsync/html/search/variables_3.js
+           docs/MQTTAsync/html/search/variables_4.js
+           docs/MQTTAsync/html/search/variables_5.js
+           docs/MQTTAsync/html/search/variables_6.js
+           docs/MQTTAsync/html/search/variables_7.js
+           docs/MQTTAsync/html/search/variables_8.js
+           docs/MQTTAsync/html/search/variables_9.js
+           docs/MQTTAsync/html/search/variables_a.js
+           docs/MQTTAsync/html/search/variables_b.js
+           docs/MQTTAsync/html/search/variables_c.js
+           docs/MQTTAsync/html/search/variables_d.js
+           docs/MQTTAsync/html/search/variables_e.js
+           docs/MQTTAsync/html/search/variables_f.js
+           docs/MQTTAsync/html/splitbar.png
+           docs/MQTTAsync/html/sync_off.png
+           docs/MQTTAsync/html/sync_on.png
+           docs/MQTTAsync/html/tab_a.png
+           docs/MQTTAsync/html/tab_b.png
+           docs/MQTTAsync/html/tab_h.png
+           docs/MQTTAsync/html/tab_s.png
+           docs/MQTTAsync/html/tabs.css
+           docs/MQTTAsync/man/man3/MQTTAsync.h.3
+           docs/MQTTAsync/man/man3/MQTTAsync_SSLOptions.3
+           docs/MQTTAsync/man/man3/MQTTAsync_connectData.3
+           docs/MQTTAsync/man/man3/MQTTAsync_connectOptions.3
+           docs/MQTTAsync/man/man3/MQTTAsync_createOptions.3
+           docs/MQTTAsync/man/man3/MQTTAsync_disconnectOptions.3
+           docs/MQTTAsync/man/man3/MQTTAsync_failureData.3
+           docs/MQTTAsync/man/man3/MQTTAsync_failureData5.3
+           docs/MQTTAsync/man/man3/MQTTAsync_init_options.3
+           docs/MQTTAsync/man/man3/MQTTAsync_message.3
+           docs/MQTTAsync/man/man3/MQTTAsync_nameValue.3
+           docs/MQTTAsync/man/man3/MQTTAsync_responseOptions.3
+           docs/MQTTAsync/man/man3/MQTTAsync_successData.3
+           docs/MQTTAsync/man/man3/MQTTAsync_successData5.3
+           docs/MQTTAsync/man/man3/MQTTAsync_willOptions.3
+           docs/MQTTAsync/man/man3/MQTTClientPersistence.h.3
+           docs/MQTTAsync/man/man3/MQTTClient_persistence.3
+           docs/MQTTAsync/man/man3/MQTTLenString.3
+           docs/MQTTAsync/man/man3/MQTTProperties.3
+           docs/MQTTAsync/man/man3/MQTTProperties.h.3
+           docs/MQTTAsync/man/man3/MQTTProperty.3
+           docs/MQTTAsync/man/man3/MQTTReasonCodes.h.3
+           docs/MQTTAsync/man/man3/MQTTSubscribeOpts.h.3
+           docs/MQTTAsync/man/man3/MQTTSubscribe_options.3
+           docs/MQTTAsync/man/man3/async.3
+           docs/MQTTAsync/man/man3/auto_reconnect.3
+           docs/MQTTAsync/man/man3/callbacks.3
+           docs/MQTTAsync/man/man3/offline_publish.3
+           docs/MQTTAsync/man/man3/publish.3
+           docs/MQTTAsync/man/man3/qos.3
+           docs/MQTTAsync/man/man3/subscribe.3
+           docs/MQTTAsync/man/man3/tracing.3
+           docs/MQTTAsync/man/man3/wildcard.3
+           docs/MQTTClient/html/bc_s.png
+           docs/MQTTClient/html/bdwn.png
+           docs/MQTTClient/html/closed.png
+           docs/MQTTClient/html/doc.png
+           docs/MQTTClient/html/doxygen.css
+           docs/MQTTClient/html/doxygen.png
+           docs/MQTTClient/html/folderclosed.png
+           docs/MQTTClient/html/folderopen.png
+           docs/MQTTClient/html/nav_f.png
+           docs/MQTTClient/html/nav_g.png
+           docs/MQTTClient/html/nav_h.png
+           docs/MQTTClient/html/open.png
+           docs/MQTTClient/html/pahologo.png
+           docs/MQTTClient/html/search/all_0.js
+           docs/MQTTClient/html/search/all_1.js
+           docs/MQTTClient/html/search/all_10.js
+           docs/MQTTClient/html/search/all_11.js
+           docs/MQTTClient/html/search/all_12.js
+           docs/MQTTClient/html/search/all_2.js
+           docs/MQTTClient/html/search/all_3.js
+           docs/MQTTClient/html/search/all_4.js
+           docs/MQTTClient/html/search/all_5.js
+           docs/MQTTClient/html/search/all_6.js
+           docs/MQTTClient/html/search/all_7.js
+           docs/MQTTClient/html/search/all_8.js
+           docs/MQTTClient/html/search/all_9.js
+           docs/MQTTClient/html/search/all_a.js
+           docs/MQTTClient/html/search/all_b.js
+           docs/MQTTClient/html/search/all_c.js
+           docs/MQTTClient/html/search/all_d.js
+           docs/MQTTClient/html/search/all_e.js
+           docs/MQTTClient/html/search/all_f.js
+           docs/MQTTClient/html/search/classes_0.js
+           docs/MQTTClient/html/search/close.png
+           docs/MQTTClient/html/search/defines_0.js
+           docs/MQTTClient/html/search/enums_0.js
+           docs/MQTTClient/html/search/enumvalues_0.js
+           docs/MQTTClient/html/search/files_0.js
+           docs/MQTTClient/html/search/functions_0.js
+           docs/MQTTClient/html/search/mag_sel.png
+           docs/MQTTClient/html/search/pages_0.js
+           docs/MQTTClient/html/search/pages_1.js
+           docs/MQTTClient/html/search/pages_2.js
+           docs/MQTTClient/html/search/pages_3.js
+           docs/MQTTClient/html/search/pages_4.js
+           docs/MQTTClient/html/search/pages_5.js
+           docs/MQTTClient/html/search/search.css
+           docs/MQTTClient/html/search/search_l.png
+           docs/MQTTClient/html/search/search_m.png
+           docs/MQTTClient/html/search/search_r.png
+           docs/MQTTClient/html/search/searchdata.js
+           docs/MQTTClient/html/search/typedefs_0.js
+           docs/MQTTClient/html/search/typedefs_1.js
+           docs/MQTTClient/html/search/variables_0.js
+           docs/MQTTClient/html/search/variables_1.js
+           docs/MQTTClient/html/search/variables_10.js
+           docs/MQTTClient/html/search/variables_11.js
+           docs/MQTTClient/html/search/variables_12.js
+           docs/MQTTClient/html/search/variables_2.js
+           docs/MQTTClient/html/search/variables_3.js
+           docs/MQTTClient/html/search/variables_4.js
+           docs/MQTTClient/html/search/variables_5.js
+           docs/MQTTClient/html/search/variables_6.js
+           docs/MQTTClient/html/search/variables_7.js
+           docs/MQTTClient/html/search/variables_8.js
+           docs/MQTTClient/html/search/variables_9.js
+           docs/MQTTClient/html/search/variables_a.js
+           docs/MQTTClient/html/search/variables_b.js
+           docs/MQTTClient/html/search/variables_c.js
+           docs/MQTTClient/html/search/variables_d.js
+           docs/MQTTClient/html/search/variables_e.js
+           docs/MQTTClient/html/search/variables_f.js
+           docs/MQTTClient/html/splitbar.png
+           docs/MQTTClient/html/sync_off.png
+           docs/MQTTClient/html/sync_on.png
+           docs/MQTTClient/html/tab_a.png
+           docs/MQTTClient/html/tab_b.png
+           docs/MQTTClient/html/tab_h.png
+           docs/MQTTClient/html/tab_s.png
+           docs/MQTTClient/html/tabs.css
+           docs/MQTTClient/man/man3/MQTTClient.h.3
+           docs/MQTTClient/man/man3/MQTTClientPersistence.h.3
+           docs/MQTTClient/man/man3/MQTTClient_SSLOptions.3
+           docs/MQTTClient/man/man3/MQTTClient_connectOptions.3
+           docs/MQTTClient/man/man3/MQTTClient_createOptions.3
+           docs/MQTTClient/man/man3/MQTTClient_init_options.3
+           docs/MQTTClient/man/man3/MQTTClient_message.3
+           docs/MQTTClient/man/man3/MQTTClient_nameValue.3
+           docs/MQTTClient/man/man3/MQTTClient_persistence.3
+           docs/MQTTClient/man/man3/MQTTClient_willOptions.3
+           docs/MQTTClient/man/man3/MQTTLenString.3
+           docs/MQTTClient/man/man3/MQTTProperties.3
+           docs/MQTTClient/man/man3/MQTTProperties.h.3
+           docs/MQTTClient/man/man3/MQTTProperty.3
+           docs/MQTTClient/man/man3/MQTTReasonCodes.h.3
+           docs/MQTTClient/man/man3/MQTTResponse.3
+           docs/MQTTClient/man/man3/MQTTSubscribeOpts.h.3
+           docs/MQTTClient/man/man3/MQTTSubscribe_options.3
+           docs/MQTTClient/man/man3/async.3
+           docs/MQTTClient/man/man3/callbacks.3
+           docs/MQTTClient/man/man3/pubasync.3
+           docs/MQTTClient/man/man3/pubsync.3
+           docs/MQTTClient/man/man3/qos.3
+           docs/MQTTClient/man/man3/subasync.3
+           docs/MQTTClient/man/man3/tracing.3
+           docs/MQTTClient/man/man3/wildcard.3
+           docs/MQTTClient_internal/html/Clients_8c__incl.md5
+           docs/MQTTClient_internal/html/Clients_8c__incl.png
+           docs/MQTTClient_internal/html/Heap_8c__incl.md5
+           docs/MQTTClient_internal/html/Heap_8c__incl.png
+           docs/MQTTClient_internal/html/Heap_8c_a0f10ff94faca02a6f81953c889802954_cgraph.md5
+           docs/MQTTClient_internal/html/Heap_8c_a0f10ff94faca02a6f81953c889802954_cgraph.png
+           docs/MQTTClient_internal/html/Heap_8c_a25214c297c998eba3cfc8282b1162c69_cgraph.md5
+           docs/MQTTClient_internal/html/Heap_8c_a25214c297c998eba3cfc8282b1162c69_cgraph.png
+           docs/MQTTClient_internal/html/Heap_8c_a59e53a989d69c3da767487596d9bfa1f_cgraph.md5
+           docs/MQTTClient_internal/html/Heap_8c_a59e53a989d69c3da767487596d9bfa1f_cgraph.png
+           docs/MQTTClient_internal/html/Heap_8c_a5f453bffe39551109e282c904a6f2902_cgraph.md5
+           docs/MQTTClient_internal/html/Heap_8c_a5f453bffe39551109e282c904a6f2902_cgraph.png
+           docs/MQTTClient_internal/html/Heap_8c_a699e6722cc8f195f853f09ac274413a3_cgraph.md5
+           docs/MQTTClient_internal/html/Heap_8c_a699e6722cc8f195f853f09ac274413a3_cgraph.png
+           docs/MQTTClient_internal/html/Heap_8c_aafff91620a02cc5f8160ee55dc1d7bf4_cgraph.md5
+           docs/MQTTClient_internal/html/Heap_8c_aafff91620a02cc5f8160ee55dc1d7bf4_cgraph.png
+           docs/MQTTClient_internal/html/LinkedList_8c__incl.md5
+           docs/MQTTClient_internal/html/LinkedList_8c__incl.png
+           docs/MQTTClient_internal/html/LinkedList_8c_a276950531b3f54e0dda27d597572c192_cgraph.md5
+           docs/MQTTClient_internal/html/LinkedList_8c_a276950531b3f54e0dda27d597572c192_cgraph.png
+           docs/MQTTClient_internal/html/LinkedList_8c_a27e2cccab9752618ead91eafbe2a9a46_cgraph.md5
+           docs/MQTTClient_internal/html/LinkedList_8c_a27e2cccab9752618ead91eafbe2a9a46_cgraph.png
+           docs/MQTTClient_internal/html/LinkedList_8c_a4bb7c34fe9a5832d65f530091e0fad0d_cgraph.md5
+           docs/MQTTClient_internal/html/LinkedList_8c_a4bb7c34fe9a5832d65f530091e0fad0d_cgraph.png
+           docs/MQTTClient_internal/html/LinkedList_8c_a5ee7cd1d29fd9299231d40c011174fcd_cgraph.md5
+           docs/MQTTClient_internal/html/LinkedList_8c_a5ee7cd1d29fd9299231d40c011174fcd_cgraph.png
+           docs/MQTTClient_internal/html/LinkedList_8c_a8430370b2b15c56ec95bb8e7e36753a5_cgraph.md5
+           docs/MQTTClient_internal/html/LinkedList_8c_a8430370b2b15c56ec95bb8e7e36753a5_cgraph.png
+           docs/MQTTClient_internal/html/LinkedList_8c_a9ed745f7ba486d16d009e86433fece7b_cgraph.md5
+           docs/MQTTClient_internal/html/LinkedList_8c_a9ed745f7ba486d16d009e86433fece7b_cgraph.png
+           docs/MQTTClient_internal/html/LinkedList_8c_aabca387fa4b86475bc9e4da40c3977fc_cgraph.md5
+           docs/MQTTClient_internal/html/LinkedList_8c_aabca387fa4b86475bc9e4da40c3977fc_cgraph.png
+           docs/MQTTClient_internal/html/LinkedList_8c_ab2bcc1897abf1d98490ea81c474dba52_cgraph.md5
+           docs/MQTTClient_internal/html/LinkedList_8c_ab2bcc1897abf1d98490ea81c474dba52_cgraph.png
+           docs/MQTTClient_internal/html/LinkedList_8c_ab82181e0c1d96954f82dee67cee41296_cgraph.md5
+           docs/MQTTClient_internal/html/LinkedList_8c_ab82181e0c1d96954f82dee67cee41296_cgraph.png
+           docs/MQTTClient_internal/html/LinkedList_8c_abc7a28449893dfa775c2f709349968b4_cgraph.md5
+           docs/MQTTClient_internal/html/LinkedList_8c_abc7a28449893dfa775c2f709349968b4_cgraph.png
+           docs/MQTTClient_internal/html/LinkedList_8c_acad319e9ce896ff1fff30ddbeb06d22d_cgraph.md5
+           docs/MQTTClient_internal/html/LinkedList_8c_acad319e9ce896ff1fff30ddbeb06d22d_cgraph.png
+           docs/MQTTClient_internal/html/LinkedList_8c_ad2879a10b723fb7c1f95c0ad0abdbc50_cgraph.md5
+           docs/MQTTClient_internal/html/LinkedList_8c_ad2879a10b723fb7c1f95c0ad0abdbc50_cgraph.png
+           docs/MQTTClient_internal/html/Log_8c__incl.md5
+           docs/MQTTClient_internal/html/Log_8c__incl.png
+           docs/MQTTClient_internal/html/MQTTClientPersistence_8h__dep__incl.md5
+           docs/MQTTClient_internal/html/MQTTClientPersistence_8h__dep__incl.png
+           docs/MQTTClient_internal/html/MQTTClient_8c__incl.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c__incl.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_a1e4d90c13a3c0705bc4a13bfe64e6525_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_a1e4d90c13a3c0705bc4a13bfe64e6525_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_a2a617c6b0492c04a4ddea592f5e53604_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_a2a617c6b0492c04a4ddea592f5e53604_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_a3c0ca97b393eee10d4f441ba68830e83_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_a3c0ca97b393eee10d4f441ba68830e83_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_a3cd7a94b48d1d9c6b8af4b9203d69d37_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_a3cd7a94b48d1d9c6b8af4b9203d69d37_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_a46bdb532d2153110ccffb2f0748d1ba5_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_a46bdb532d2153110ccffb2f0748d1ba5_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_a50abbce720d50b9f84b97ff9fa1f546d_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_a50abbce720d50b9f84b97ff9fa1f546d_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_a5390c2402f135c12826ffbf6fc261f7c_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_a5390c2402f135c12826ffbf6fc261f7c_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_a58356c13867f18df60fd4c7ec9457c48_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_a58356c13867f18df60fd4c7ec9457c48_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_a5e0cfa14237d7557bee2a59747ecadd3_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_a5e0cfa14237d7557bee2a59747ecadd3_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_a6e8231e8c47f6f67f7ebbb5dcb4c69c0_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_a6e8231e8c47f6f67f7ebbb5dcb4c69c0_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_a92fa1c13f3db8399e042fbdbdfb692b3_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_a92fa1c13f3db8399e042fbdbdfb692b3_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_a9a0518d9ca924d12c1329dbe3de5f2b6_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_a9a0518d9ca924d12c1329dbe3de5f2b6_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_a9c1c28258f0d5c6a44ff53a98618f5f3_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_a9c1c28258f0d5c6a44ff53a98618f5f3_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_a9defda2979f6fedaae64fd85f5c2f617_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_a9defda2979f6fedaae64fd85f5c2f617_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_aa8731be3dbc6a25f41f037f8bbbb054b_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_aa8731be3dbc6a25f41f037f8bbbb054b_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_aad27d07782991a4937ebf2f39a021f83_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_aad27d07782991a4937ebf2f39a021f83_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_ab8786efdd6c3a50c6ca33cfb5d8fc283_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_ab8786efdd6c3a50c6ca33cfb5d8fc283_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_acdcf1aefca1dbb3d1b3d36c9bbaf3760_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_acdcf1aefca1dbb3d1b3d36c9bbaf3760_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_adc7d708419664670063a0e7fd9c27bca_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_adc7d708419664670063a0e7fd9c27bca_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_ade24f717a9b39d38b081e1d5e0db1661_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_ade24f717a9b39d38b081e1d5e0db1661_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_ae54936bf7680dcde353e6fc785a44461_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_ae54936bf7680dcde353e6fc785a44461_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_ae700c3f5cfea3813264ce95e7c8cf498_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_ae700c3f5cfea3813264ce95e7c8cf498_cgraph.png
+           docs/MQTTClient_internal/html/MQTTClient_8c_af35ab7375435f7b6388c5ff4610dad3d_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTClient_8c_af35ab7375435f7b6388c5ff4610dad3d_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacketOut_8c__incl.md5
+           docs/MQTTClient_internal/html/MQTTPacketOut_8c__incl.png
+           docs/MQTTClient_internal/html/MQTTPacketOut_8c_a1ad4c9b76c6ab88c394ee925eb4dcd44_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacketOut_8c_a1ad4c9b76c6ab88c394ee925eb4dcd44_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacketOut_8c_a90212ed29c311f52a1dce0617133b1a7_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacketOut_8c_a90212ed29c311f52a1dce0617133b1a7_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacketOut_8c_a93f6aa4b23d30f6c8c5be87b0b58e37c_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacketOut_8c_a93f6aa4b23d30f6c8c5be87b0b58e37c_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacketOut_8c_acf4b3402e224ac22ffbe74731f374fe0_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacketOut_8c_acf4b3402e224ac22ffbe74731f374fe0_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacketOut_8c_ad05dd32a547e82e0741d9d8279568a65_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacketOut_8c_ad05dd32a547e82e0741d9d8279568a65_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacketOut_8c_ad3c3f0919760286998e9b9eafaa47a36_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacketOut_8c_ad3c3f0919760286998e9b9eafaa47a36_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacketOut_8c_aee4b3e106128629671828ae7bfa70850_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacketOut_8c_aee4b3e106128629671828ae7bfa70850_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c__incl.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c__incl.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a28f1754fe1f090d54bc3b5687fb2dd8c_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a28f1754fe1f090d54bc3b5687fb2dd8c_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a3635fd8035177b20c478daea6bad9328_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a3635fd8035177b20c478daea6bad9328_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a4262b8f35885dc123f59268fb74cec3d_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a4262b8f35885dc123f59268fb74cec3d_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a51f58f1c7864f9fe87b55cc6ccb10129_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a51f58f1c7864f9fe87b55cc6ccb10129_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a58feb89ee5616f2ea6d222bbbef927bb_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a58feb89ee5616f2ea6d222bbbef927bb_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a8167e3188a4bdcfb30c10e0d76c82afe_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a8167e3188a4bdcfb30c10e0d76c82afe_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a8886398fbf89872f8e593444d351a5aa_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a8886398fbf89872f8e593444d351a5aa_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a8b93325a6a336406497b20b489d6c46a_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a8b93325a6a336406497b20b489d6c46a_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a908f81381b1720e4a53d15c1c4690f5c_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a908f81381b1720e4a53d15c1c4690f5c_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a93c155059c80bd01b4a1561d9bec1d13_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a93c155059c80bd01b4a1561d9bec1d13_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a9dd0446112e7bc982f8e3bb8bbb6b409_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a9dd0446112e7bc982f8e3bb8bbb6b409_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a9ebcf93ff2ba3bd103f016c975e9c9c4_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c_a9ebcf93ff2ba3bd103f016c975e9c9c4_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c_aa9e17261b4d09d802dba6a65bcdc44fa_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c_aa9e17261b4d09d802dba6a65bcdc44fa_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c_ad89e627a37f7f7eb4355b076cd46e0b0_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c_ad89e627a37f7f7eb4355b076cd46e0b0_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c_adca3afbe588ae7e6f342c5a697e4ee45_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c_adca3afbe588ae7e6f342c5a697e4ee45_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c_adec2c812b12255dab78f75163a4f1960_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c_adec2c812b12255dab78f75163a4f1960_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c_ae1ec2d8714335c6ec88c93e957b644d2_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c_ae1ec2d8714335c6ec88c93e957b644d2_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c_af0fcaa11ac05ce448a433a53f9cae420_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c_af0fcaa11ac05ce448a433a53f9cae420_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPacket_8c_af922033c495b05fe4242afc54211f20d_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPacket_8c_af922033c495b05fe4242afc54211f20d_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPersistenceDefault_8c__incl.md5
+           docs/MQTTClient_internal/html/MQTTPersistenceDefault_8c__incl.png
+           docs/MQTTClient_internal/html/MQTTPersistenceDefault_8c_a64e0c1a2fd06375b975d6643175572d8_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPersistenceDefault_8c_a64e0c1a2fd06375b975d6643175572d8_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPersistenceDefault_8c_a919cf4710a1f7d7ce0878599e9aa4700_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPersistenceDefault_8c_a919cf4710a1f7d7ce0878599e9aa4700_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPersistence_8c__incl.md5
+           docs/MQTTClient_internal/html/MQTTPersistence_8c__incl.png
+           docs/MQTTClient_internal/html/MQTTPersistence_8c_a385b6c191dbf51652d3e3a81813848f1_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPersistence_8c_a385b6c191dbf51652d3e3a81813848f1_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPersistence_8c_a3e607d17e088a493097af07e9c7b0006_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPersistence_8c_a3e607d17e088a493097af07e9c7b0006_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPersistence_8c_a568adcd6ad3542d6f631a7f7a2e682e5_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPersistence_8c_a568adcd6ad3542d6f631a7f7a2e682e5_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPersistence_8c_a65b64467da967b6930966b98f249406e_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPersistence_8c_a65b64467da967b6930966b98f249406e_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPersistence_8c_a75e756280e499db530896c5b74b8d3b5_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPersistence_8c_a75e756280e499db530896c5b74b8d3b5_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPersistence_8c_aba48f1a44c540fa37bca207cae3cbbd3_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPersistence_8c_aba48f1a44c540fa37bca207cae3cbbd3_cgraph.png
+           docs/MQTTClient_internal/html/MQTTPersistence_8c_adbf5881a3c6ce9bd7062182dfffe27fa_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTPersistence_8c_adbf5881a3c6ce9bd7062182dfffe27fa_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c__incl.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c__incl.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a0f86c2cc2debfa39e275d3c76d5d0073_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a0f86c2cc2debfa39e275d3c76d5d0073_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a0fa824f9702cb6b0d7c800fd65198fce_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a0fa824f9702cb6b0d7c800fd65198fce_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a218a69c333badc4a61b321bc830ac1e0_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a218a69c333badc4a61b321bc830ac1e0_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a2d7897d575be486bf1ed0459d7b2b8e7_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a2d7897d575be486bf1ed0459d7b2b8e7_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a362e0560d6f4f0e50237664a1a8e89a7_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a362e0560d6f4f0e50237664a1a8e89a7_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a3a1acc3bd7b09ab9d52e15e4a97c4cb2_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a3a1acc3bd7b09ab9d52e15e4a97c4cb2_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a447b65c664ebedef8fecb70e29dc1767_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a447b65c664ebedef8fecb70e29dc1767_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a4502a4b9257b32508fac87e42fb1d85a_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a4502a4b9257b32508fac87e42fb1d85a_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a52e062f52e5a42275471eeb23040fc0e_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a52e062f52e5a42275471eeb23040fc0e_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a5906689ff10dc091d1a2b317295d39b0_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a5906689ff10dc091d1a2b317295d39b0_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a68e5f17517e75326c0869a22c7995358_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a68e5f17517e75326c0869a22c7995358_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a8514ddc8d0f346c0da19ab4d59b4062f_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a8514ddc8d0f346c0da19ab4d59b4062f_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a89588f085edc5cee4eb650e8ad114df4_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a89588f085edc5cee4eb650e8ad114df4_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a900fa28a8774ad6f5535104bb62e7abf_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a900fa28a8774ad6f5535104bb62e7abf_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a9aa163c85710d4936ae368b8b9412440_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a9aa163c85710d4936ae368b8b9412440_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_aa9f454819a84c7a43009253fabcea3f3_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_aa9f454819a84c7a43009253fabcea3f3_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_ab9c5a22f0cbd4fa648663de7ae7118ab_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_ab9c5a22f0cbd4fa648663de7ae7118ab_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_ac09429577a185297d8797d791b7116a2_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_ac09429577a185297d8797d791b7116a2_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_ac753a3ad12292a0a9c2f4343bd33817e_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_ac753a3ad12292a0a9c2f4343bd33817e_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_ad2f52c0fff61c891b174d69b95bcd173_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_ad2f52c0fff61c891b174d69b95bcd173_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_afbf121be11a48fcda3e0d639bc47472b_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolClient_8c_afbf121be11a48fcda3e0d639bc47472b_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolOut_8c__incl.md5
+           docs/MQTTClient_internal/html/MQTTProtocolOut_8c__incl.png
+           docs/MQTTClient_internal/html/MQTTProtocolOut_8c_a0b9648549a1a132eecadb74df2e84f57_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolOut_8c_a0b9648549a1a132eecadb74df2e84f57_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolOut_8c_a460d021d06dd24cf975dfe20e17ab1ba_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolOut_8c_a460d021d06dd24cf975dfe20e17ab1ba_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolOut_8c_a4f914518a8e2d68cc9d9fbb2c22cdf6f_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolOut_8c_a4f914518a8e2d68cc9d9fbb2c22cdf6f_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolOut_8c_a5424115bf427436c2d40058f15261ed0_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolOut_8c_a5424115bf427436c2d40058f15261ed0_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolOut_8c_a69083f5a059d129d1030140ec1cd3d58_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolOut_8c_a69083f5a059d129d1030140ec1cd3d58_cgraph.png
+           docs/MQTTClient_internal/html/MQTTProtocolOut_8c_ad298c92c74b5f1acda774fc95e3d61c3_cgraph.md5
+           docs/MQTTClient_internal/html/MQTTProtocolOut_8c_ad298c92c74b5f1acda774fc95e3d61c3_cgraph.png
+           docs/MQTTClient_internal/html/MQTTVersion_8c__incl.md5
+           docs/MQTTClient_internal/html/MQTTVersion_8c__incl.png
+           docs/MQTTClient_internal/html/Messages_8c__incl.md5
+           docs/MQTTClient_internal/html/Messages_8c__incl.png
+           docs/MQTTClient_internal/html/SocketBuffer_8c__incl.md5
+           docs/MQTTClient_internal/html/SocketBuffer_8c__incl.png
+           docs/MQTTClient_internal/html/SocketBuffer_8c_a2f6bac9a46fd116e58071ff49152d716_cgraph.md5
+           docs/MQTTClient_internal/html/SocketBuffer_8c_a2f6bac9a46fd116e58071ff49152d716_cgraph.png
+           docs/MQTTClient_internal/html/SocketBuffer_8c_a412a40b44b12901e63e662ac0e5be0af_cgraph.md5
+           docs/MQTTClient_internal/html/SocketBuffer_8c_a412a40b44b12901e63e662ac0e5be0af_cgraph.png
+           docs/MQTTClient_internal/html/SocketBuffer_8c_a524311e577a7225a09fb944904c17886_cgraph.md5
+           docs/MQTTClient_internal/html/SocketBuffer_8c_a524311e577a7225a09fb944904c17886_cgraph.png
+           docs/MQTTClient_internal/html/SocketBuffer_8c_a7ba9075e011f49302304ce7b2d8e5b59_cgraph.md5
+           docs/MQTTClient_internal/html/SocketBuffer_8c_a7ba9075e011f49302304ce7b2d8e5b59_cgraph.png
+           docs/MQTTClient_internal/html/SocketBuffer_8c_a8b7b6acbf2ec65796c32da7fd55c3ee8_cgraph.md5
+           docs/MQTTClient_internal/html/SocketBuffer_8c_a8b7b6acbf2ec65796c32da7fd55c3ee8_cgraph.png
+           docs/MQTTClient_internal/html/SocketBuffer_8c_a999ec229faa4b2e2c0f7db87693bc1f8_cgraph.md5
+           docs/MQTTClient_internal/html/SocketBuffer_8c_a999ec229faa4b2e2c0f7db87693bc1f8_cgraph.png
+           docs/MQTTClient_internal/html/SocketBuffer_8c_aa61a564b814b06d9cfd3fe9ce7ab1cf7_cgraph.md5
+           docs/MQTTClient_internal/html/SocketBuffer_8c_aa61a564b814b06d9cfd3fe9ce7ab1cf7_cgraph.png
+           docs/MQTTClient_internal/html/SocketBuffer_8c_abb5eae96f4c62d1e6fefed8d078ecba8_cgraph.md5
+           docs/MQTTClient_internal/html/SocketBuffer_8c_abb5eae96f4c62d1e6fefed8d078ecba8_cgraph.png
+           docs/MQTTClient_internal/html/SocketBuffer_8c_ae8667990c5933c3af9b90a163bba34dc_cgraph.md5
+           docs/MQTTClient_internal/html/SocketBuffer_8c_ae8667990c5933c3af9b90a163bba34dc_cgraph.png
+           docs/MQTTClient_internal/html/SocketBuffer_8c_afcc9b9b6bd255b0a6e4c7e4f5a36bb37_cgraph.md5
+           docs/MQTTClient_internal/html/SocketBuffer_8c_afcc9b9b6bd255b0a6e4c7e4f5a36bb37_cgraph.png
+           docs/MQTTClient_internal/html/Socket_8c__incl.md5
+           docs/MQTTClient_internal/html/Socket_8c__incl.png
+           docs/MQTTClient_internal/html/Socket_8c_a01e567eb0c5db3193aaa02f117fd1137_cgraph.md5
+           docs/MQTTClient_internal/html/Socket_8c_a01e567eb0c5db3193aaa02f117fd1137_cgraph.png
+           docs/MQTTClient_internal/html/Socket_8c_a0e0f2981efa6caf604e8f0fc1072af90_cgraph.md5
+           docs/MQTTClient_internal/html/Socket_8c_a0e0f2981efa6caf604e8f0fc1072af90_cgraph.png
+           docs/MQTTClient_internal/html/Socket_8c_a12c397b0fb6187db7a66a44041055a13_cgraph.md5
+           docs/MQTTClient_internal/html/Socket_8c_a12c397b0fb6187db7a66a44041055a13_cgraph.png
+           docs/MQTTClient_internal/html/Socket_8c_a39a32a0495e5cba033f3c7fee72ae797_cgraph.md5
+           docs/MQTTClient_internal/html/Socket_8c_a39a32a0495e5cba033f3c7fee72ae797_cgraph.png
+           docs/MQTTClient_internal/html/Socket_8c_a42a217310f6f55473525764038ac367d_cgraph.md5
+           docs/MQTTClient_internal/html/Socket_8c_a42a217310f6f55473525764038ac367d_cgraph.png
+           docs/MQTTClient_internal/html/Socket_8c_a457d9a6a9d8e886c46fcd0c096f45614_cgraph.md5
+           docs/MQTTClient_internal/html/Socket_8c_a457d9a6a9d8e886c46fcd0c096f45614_cgraph.png
+           docs/MQTTClient_internal/html/Socket_8c_a550291985042dc080825ab27b16894fb_cgraph.md5
+           docs/MQTTClient_internal/html/Socket_8c_a550291985042dc080825ab27b16894fb_cgraph.png
+           docs/MQTTClient_internal/html/Socket_8c_a8fac284bb799c180ef68bb5c7b4b1df4_cgraph.md5
+           docs/MQTTClient_internal/html/Socket_8c_a8fac284bb799c180ef68bb5c7b4b1df4_cgraph.png
+           docs/MQTTClient_internal/html/Socket_8c_a9da80ce7e69ae76dee95c94a2349c462_cgraph.md5
+           docs/MQTTClient_internal/html/Socket_8c_a9da80ce7e69ae76dee95c94a2349c462_cgraph.png
+           docs/MQTTClient_internal/html/Socket_8c_aa24d7c85b03f09f16c78de0c1a9b3580_cgraph.md5
+           docs/MQTTClient_internal/html/Socket_8c_aa24d7c85b03f09f16c78de0c1a9b3580_cgraph.png
+           docs/MQTTClient_internal/html/Socket_8c_aa77cff9e8173f9b8d35d062558d0cb57_cgraph.md5
+           docs/MQTTClient_internal/html/Socket_8c_aa77cff9e8173f9b8d35d062558d0cb57_cgraph.png
+           docs/MQTTClient_internal/html/Socket_8c_ab33a53c9fce80d5dfeb26426b157034a_cgraph.md5
+           docs/MQTTClient_internal/html/Socket_8c_ab33a53c9fce80d5dfeb26426b157034a_cgraph.png
+           docs/MQTTClient_internal/html/Socket_8c_ac176152ef036b6cfd7330a9481a7b2ed_cgraph.md5
+           docs/MQTTClient_internal/html/Socket_8c_ac176152ef036b6cfd7330a9481a7b2ed_cgraph.png
+           docs/MQTTClient_internal/html/Socket_8c_accf7d8d1529e31b2ad8286627cb662c0_cgraph.md5
+           docs/MQTTClient_internal/html/Socket_8c_accf7d8d1529e31b2ad8286627cb662c0_cgraph.png
+           docs/MQTTClient_internal/html/Socket_8c_af10088907080a5c517ee23ac022f6538_cgraph.md5
+           docs/MQTTClient_internal/html/Socket_8c_af10088907080a5c517ee23ac022f6538_cgraph.png
+           docs/MQTTClient_internal/html/Thread_8c__incl.md5
+           docs/MQTTClient_internal/html/Thread_8c__incl.png
+           docs/MQTTClient_internal/html/Thread_8c_afdd152c518f968c777012d7dfb20ef96_cgraph.md5
+           docs/MQTTClient_internal/html/Thread_8c_afdd152c518f968c777012d7dfb20ef96_cgraph.png
+           docs/MQTTClient_internal/html/Tree_8c__incl.md5
+           docs/MQTTClient_internal/html/Tree_8c__incl.png
+           docs/MQTTClient_internal/html/Tree_8c_aa5ee1e466d266b289dc45cbd97116b83_cgraph.md5
+           docs/MQTTClient_internal/html/Tree_8c_aa5ee1e466d266b289dc45cbd97116b83_cgraph.png
+           docs/MQTTClient_internal/html/Tree_8c_afa8473167abb71831644bf8a322bc3b6_cgraph.md5
+           docs/MQTTClient_internal/html/Tree_8c_afa8473167abb71831644bf8a322bc3b6_cgraph.png
+           docs/MQTTClient_internal/html/bc_s.png
+           docs/MQTTClient_internal/html/bdwn.png
+           docs/MQTTClient_internal/html/closed.png
+           docs/MQTTClient_internal/html/doc.png
+           docs/MQTTClient_internal/html/doxygen.css
+           docs/MQTTClient_internal/html/doxygen.png
+           docs/MQTTClient_internal/html/folderclosed.png
+           docs/MQTTClient_internal/html/folderopen.png
+           docs/MQTTClient_internal/html/graph_legend.md5
+           docs/MQTTClient_internal/html/graph_legend.png
+           docs/MQTTClient_internal/html/nav_f.png
+           docs/MQTTClient_internal/html/nav_g.png
+           docs/MQTTClient_internal/html/nav_h.png
+           docs/MQTTClient_internal/html/open.png
+           docs/MQTTClient_internal/html/pahologo.png
+           docs/MQTTClient_internal/html/search/all_0.js
+           docs/MQTTClient_internal/html/search/all_1.js
+           docs/MQTTClient_internal/html/search/all_10.js
+           docs/MQTTClient_internal/html/search/all_11.js
+           docs/MQTTClient_internal/html/search/all_12.js
+           docs/MQTTClient_internal/html/search/all_13.js
+           docs/MQTTClient_internal/html/search/all_14.js
+           docs/MQTTClient_internal/html/search/all_15.js
+           docs/MQTTClient_internal/html/search/all_16.js
+           docs/MQTTClient_internal/html/search/all_2.js
+           docs/MQTTClient_internal/html/search/all_3.js
+           docs/MQTTClient_internal/html/search/all_4.js
+           docs/MQTTClient_internal/html/search/all_5.js
+           docs/MQTTClient_internal/html/search/all_6.js
+           docs/MQTTClient_internal/html/search/all_7.js
+           docs/MQTTClient_internal/html/search/all_8.js
+           docs/MQTTClient_internal/html/search/all_9.js
+           docs/MQTTClient_internal/html/search/all_a.js
+           docs/MQTTClient_internal/html/search/all_b.js
+           docs/MQTTClient_internal/html/search/all_c.js
+           docs/MQTTClient_internal/html/search/all_d.js
+           docs/MQTTClient_internal/html/search/all_e.js
+           docs/MQTTClient_internal/html/search/all_f.js
+           docs/MQTTClient_internal/html/search/classes_0.js
+           docs/MQTTClient_internal/html/search/classes_1.js
+           docs/MQTTClient_internal/html/search/classes_2.js
+           docs/MQTTClient_internal/html/search/classes_3.js
+           docs/MQTTClient_internal/html/search/classes_4.js
+           docs/MQTTClient_internal/html/search/classes_5.js
+           docs/MQTTClient_internal/html/search/classes_6.js
+           docs/MQTTClient_internal/html/search/classes_7.js
+           docs/MQTTClient_internal/html/search/classes_8.js
+           docs/MQTTClient_internal/html/search/classes_9.js
+           docs/MQTTClient_internal/html/search/classes_a.js
+           docs/MQTTClient_internal/html/search/classes_b.js
+           docs/MQTTClient_internal/html/search/classes_c.js
+           docs/MQTTClient_internal/html/search/close.png
+           docs/MQTTClient_internal/html/search/defines_0.js
+           docs/MQTTClient_internal/html/search/defines_1.js
+           docs/MQTTClient_internal/html/search/defines_2.js
+           docs/MQTTClient_internal/html/search/files_0.js
+           docs/MQTTClient_internal/html/search/files_1.js
+           docs/MQTTClient_internal/html/search/files_2.js
+           docs/MQTTClient_internal/html/search/files_3.js
+           docs/MQTTClient_internal/html/search/files_4.js
+           docs/MQTTClient_internal/html/search/files_5.js
+           docs/MQTTClient_internal/html/search/files_6.js
+           docs/MQTTClient_internal/html/search/functions_0.js
+           docs/MQTTClient_internal/html/search/functions_1.js
+           docs/MQTTClient_internal/html/search/functions_2.js
+           docs/MQTTClient_internal/html/search/functions_3.js
+           docs/MQTTClient_internal/html/search/functions_4.js
+           docs/MQTTClient_internal/html/search/functions_5.js
+           docs/MQTTClient_internal/html/search/functions_6.js
+           docs/MQTTClient_internal/html/search/functions_7.js
+           docs/MQTTClient_internal/html/search/functions_8.js
+           docs/MQTTClient_internal/html/search/functions_9.js
+           docs/MQTTClient_internal/html/search/functions_a.js
+           docs/MQTTClient_internal/html/search/functions_b.js
+           docs/MQTTClient_internal/html/search/mag_sel.png
+           docs/MQTTClient_internal/html/search/pages_0.js
+           docs/MQTTClient_internal/html/search/search.css
+           docs/MQTTClient_internal/html/search/search_l.png
+           docs/MQTTClient_internal/html/search/search_m.png
+           docs/MQTTClient_internal/html/search/search_r.png
+           docs/MQTTClient_internal/html/search/searchdata.js
+           docs/MQTTClient_internal/html/search/typedefs_0.js
+           docs/MQTTClient_internal/html/search/typedefs_1.js
+           docs/MQTTClient_internal/html/search/variables_0.js
+           docs/MQTTClient_internal/html/search/variables_1.js
+           docs/MQTTClient_internal/html/search/variables_10.js
+           docs/MQTTClient_internal/html/search/variables_11.js
+           docs/MQTTClient_internal/html/search/variables_12.js
+           docs/MQTTClient_internal/html/search/variables_13.js
+           docs/MQTTClient_internal/html/search/variables_14.js
+           docs/MQTTClient_internal/html/search/variables_15.js
+           docs/MQTTClient_internal/html/search/variables_16.js
+           docs/MQTTClient_internal/html/search/variables_2.js
+           docs/MQTTClient_internal/html/search/variables_3.js
+           docs/MQTTClient_internal/html/search/variables_4.js
+           docs/MQTTClient_internal/html/search/variables_5.js
+           docs/MQTTClient_internal/html/search/variables_6.js
+           docs/MQTTClient_internal/html/search/variables_7.js
+           docs/MQTTClient_internal/html/search/variables_8.js
+           docs/MQTTClient_internal/html/search/variables_9.js
+           docs/MQTTClient_internal/html/search/variables_a.js
+           docs/MQTTClient_internal/html/search/variables_b.js
+           docs/MQTTClient_internal/html/search/variables_c.js
+           docs/MQTTClient_internal/html/search/variables_d.js
+           docs/MQTTClient_internal/html/search/variables_e.js
+           docs/MQTTClient_internal/html/search/variables_f.js
+           docs/MQTTClient_internal/html/splitbar.png
+           docs/MQTTClient_internal/html/structAck__coll__graph.md5
+           docs/MQTTClient_internal/html/structAck__coll__graph.png
+           docs/MQTTClient_internal/html/structClientStates__coll__graph.md5
+           docs/MQTTClient_internal/html/structClientStates__coll__graph.png
+           docs/MQTTClient_internal/html/structClients__coll__graph.md5
+           docs/MQTTClient_internal/html/structClients__coll__graph.png
+           docs/MQTTClient_internal/html/structConnack__coll__graph.md5
+           docs/MQTTClient_internal/html/structConnack__coll__graph.png
+           docs/MQTTClient_internal/html/structConnect__coll__graph.md5
+           docs/MQTTClient_internal/html/structConnect__coll__graph.png
+           docs/MQTTClient_internal/html/structListElementStruct__coll__graph.md5
+           docs/MQTTClient_internal/html/structListElementStruct__coll__graph.png
+           docs/MQTTClient_internal/html/structList__coll__graph.md5
+           docs/MQTTClient_internal/html/structList__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTAsync__command__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTAsync__command__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTAsync__connectOptions__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTAsync__connectOptions__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTAsync__disconnectOptions__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTAsync__disconnectOptions__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTAsync__failureData5__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTAsync__failureData5__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTAsync__message__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTAsync__message__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTAsync__queuedCommand__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTAsync__queuedCommand__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTAsync__responseOptions__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTAsync__responseOptions__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTAsync__struct__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTAsync__struct__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTAsync__successData5__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTAsync__successData5__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTAsync__successData__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTAsync__successData__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTClient__connectOptions__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTClient__connectOptions__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTClient__message__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTClient__message__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTClients__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTClients__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTPacket__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTPacket__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTPersistence__message__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTPersistence__message__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTPersistence__qEntry__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTPersistence__qEntry__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTProperties__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTProperties__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTProperty__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTProperty__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTProtocol__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTProtocol__coll__graph.png
+           docs/MQTTClient_internal/html/structMQTTResponse__coll__graph.md5
+           docs/MQTTClient_internal/html/structMQTTResponse__coll__graph.png
+           docs/MQTTClient_internal/html/structMessages__coll__graph.md5
+           docs/MQTTClient_internal/html/structMessages__coll__graph.png
+           docs/MQTTClient_internal/html/structNodeStruct__coll__graph.md5
+           docs/MQTTClient_internal/html/structNodeStruct__coll__graph.png
+           docs/MQTTClient_internal/html/structPublish__coll__graph.md5
+           docs/MQTTClient_internal/html/structPublish__coll__graph.png
+           docs/MQTTClient_internal/html/structSockets__coll__graph.md5
+           docs/MQTTClient_internal/html/structSockets__coll__graph.png
+           docs/MQTTClient_internal/html/structSuback__coll__graph.md5
+           docs/MQTTClient_internal/html/structSuback__coll__graph.png
+           docs/MQTTClient_internal/html/structTree__coll__graph.md5
+           docs/MQTTClient_internal/html/structTree__coll__graph.png
+           docs/MQTTClient_internal/html/structUnsuback__coll__graph.md5
+           docs/MQTTClient_internal/html/structUnsuback__coll__graph.png
+           docs/MQTTClient_internal/html/structnetworkHandles__coll__graph.md5
+           docs/MQTTClient_internal/html/structnetworkHandles__coll__graph.png
+           docs/MQTTClient_internal/html/structpending__write__coll__graph.md5
+           docs/MQTTClient_internal/html/structpending__write__coll__graph.png
+           docs/MQTTClient_internal/html/structprops__rc__parms__coll__graph.md5
+           docs/MQTTClient_internal/html/structprops__rc__parms__coll__graph.png
+           docs/MQTTClient_internal/html/structqEntry__coll__graph.md5
+           docs/MQTTClient_internal/html/structqEntry__coll__graph.png
+           docs/MQTTClient_internal/html/structthreadEntry__coll__graph.md5
+           docs/MQTTClient_internal/html/structthreadEntry__coll__graph.png
+           docs/MQTTClient_internal/html/sync_off.png
+           docs/MQTTClient_internal/html/sync_on.png
+           docs/MQTTClient_internal/html/tab_a.png
+           docs/MQTTClient_internal/html/tab_b.png
+           docs/MQTTClient_internal/html/tab_h.png
+           docs/MQTTClient_internal/html/tab_s.png
+           docs/MQTTClient_internal/html/tabs.css
+           docs/MQTTClient_internal/html/utf-8_8c__incl.md5
+           docs/MQTTClient_internal/html/utf-8_8c__incl.png
+           docs/MQTTClient_internal/html/utf-8_8c_a4f3cf77538d867bb5b421bcb687dccdf_cgraph.md5
+           docs/MQTTClient_internal/html/utf-8_8c_a4f3cf77538d867bb5b421bcb687dccdf_cgraph.png
+           docs/MQTTClient_internal/html/utf-8_8c_ad2012627fca4b4bdd9f67bde49b0d1cb_cgraph.md5
+           docs/MQTTClient_internal/html/utf-8_8c_ad2012627fca4b4bdd9f67bde49b0d1cb_cgraph.png
+           src/Keysight_ws_add
+           src/VersionInfo.h.in
+           test/CMakeLists.txt
+           test/dll-copy.cmake
+           test/openssl/applink.c
+           test/python/controlVMnetworkstate.py
+           test/python/mqttasync_module.c
+           test/python/mqttclient_module.c
+           test/python/setup.py
+           test/python/test1.py
+           test/python/test2.py
+           test/python/test_offline.py
+           test/ssl/all-ca.crt
+           test/ssl/capath/server.pem
+           test/ssl/capath/test-root-ca.pem
+           test/ssl/client-expired.crt
+           test/ssl/client-expired.csr
+           test/ssl/client-revoked.crt
+           test/ssl/client-revoked.csr
+           test/ssl/client-revoked.key
+           test/ssl/client.crt
+           test/ssl/client.csr
+           test/ssl/client.key
+           test/ssl/client.pem
+           test/ssl/crl.pem
+           test/ssl/gen.sh
+           test/ssl/openssl.cnf
+           test/ssl/rootCA/crlnumber
+           test/ssl/rootCA/index.txt
+           test/ssl/rootCA/index.txt.attr
+           test/ssl/rootCA/index.txt.attr.old
+           test/ssl/rootCA/index.txt.old
+           test/ssl/rootCA/newcerts/01.pem
+           test/ssl/rootCA/newcerts/02.pem
+           test/ssl/rootCA/serial
+           test/ssl/rootCA/serial.old
+           test/ssl/server-expired.crt
+           test/ssl/server-expired.csr
+           test/ssl/server.crt
+           test/ssl/server.csr
+           test/ssl/server.key
+           test/ssl/signingCA/crlnumber
+           test/ssl/signingCA/crlnumber.old
+           test/ssl/signingCA/index.txt
+           test/ssl/signingCA/index.txt.attr
+           test/ssl/signingCA/index.txt.attr.old
+           test/ssl/signingCA/index.txt.old
+           test/ssl/signingCA/newcerts/01.pem
+           test/ssl/signingCA/newcerts/02.pem
+           test/ssl/signingCA/newcerts/03.pem
+           test/ssl/signingCA/newcerts/04.pem
+           test/ssl/signingCA/serial
+           test/ssl/signingCA/serial.old
+           test/ssl/test-alt-ca.crt
+           test/ssl/test-alt-ca.csr
+           test/ssl/test-alt-ca.key
+           test/ssl/test-bad-root-ca.crt
+           test/ssl/test-bad-root-ca.key
+           test/ssl/test-fake-root-ca.crt
+           test/ssl/test-fake-root-ca.key
+           test/ssl/test-root-ca.crt
+           test/ssl/test-root-ca.key
+           test/ssl/test-signing-ca.crt
+           test/ssl/test-signing-ca.csr
+           test/ssl/test-signing-ca.key
+           test/tls-testing/Dockerfile
+           test/tls-testing/keys/all-ca.crt
+           test/tls-testing/keys/server/server-mitm.crt
+           test/tls-testing/keys/server/server-mitm.key
+           test/tls-testing/keys/server/server.crt
+           test/tls-testing/keys/server/server.key
+           test/tls-testing/keys/test-root-ca.crt
+           test/tls-testing/keys/test-signing-ca.crt
+           test/tls-testing/mosquitto-docker.conf
+           test/tls-testing/mosquitto.conf
+           test/tls-testing/mosquitto.psk
+           test/tls-testing/mosquitto.pw
+           test_package/CMakeLists.txt
+           test_package/conanfile.py
+           test_package/test_package.c
+           travis-build.sh
+           travis-deploy.sh
+           travis-install.sh
+           travis-setup-deploy.sh
+           version.major
+           version.minor
+           version.patch
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     src/MQTTPersistenceDefault.h
+           src/MQTTProperties.c
+           src/MQTTProperties.h
+           src/MQTTReasonCodes.c
+           src/MQTTReasonCodes.h
+           src/MQTTSubscribeOpts.h
+           src/MQTTVersion.c
+           src/Messages.c
+           src/Messages.h
+           src/StackTrace.c
+           src/StackTrace.h
+           src/utf-8.h
+Copyright: 2009-2021 IBM Corp., Ian Craggs
+           2009-2022 IBM Corp.
+           2017-2020 IBM Corp. and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+
+Files:     docs/MQTTAsync/html/dynsections.js
+           docs/MQTTAsync/html/menu.js
+           docs/MQTTAsync/html/search/search.js
+           docs/MQTTClient/html/dynsections.js
+           docs/MQTTClient/html/menu.js
+           docs/MQTTClient/html/search/search.js
+           docs/MQTTClient_internal/html/dynsections.js
+           docs/MQTTClient_internal/html/menu.js
+           docs/MQTTClient_internal/html/search/search.js
+Copyright: 1997-2017 Dimitri van Heesch
+License:   GPL-2.0+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, write to the Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ .
+ @licend  The above is the entire license notice
+ for the JavaScript code in this file
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     src/samples/MQTTAsync_publish.c
+           src/samples/MQTTAsync_subscribe.c
+           src/samples/MQTTClient_publish.c
+           src/samples/MQTTClient_publish_async.c
+           src/samples/MQTTClient_subscribe.c
+           src/samples/pubsub_opts.c
+Copyright: 2012-2018 IBM Corp.
+           2012-2022 IBM Corp., Ian Craggs
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial contribution
+
+Files:     src/Base64.c
+           src/Base64.h
+           src/SHA1.c
+           src/SHA1.h
+Copyright: 2018-2019 Wind River Systems, Inc.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Keith Holman - initial implementation and documentation
+
+Files:     docs/MQTTAsync/html/menudata.js
+           docs/MQTTClient/html/menudata.js
+           docs/MQTTClient_internal/html/menudata.js
+Copyright: 1997-2019 Dimitri van Heesch
+License:   __UNKNOWN__
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of version 2 of the GNU General Public License as published by
+ the Free Software Foundation
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, write to the Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ .
+ @licend  The above is the entire license notice
+ for the JavaScript code in this file
+
+Files:     docs/MQTTAsync/html/jquery.js
+           docs/MQTTClient/html/jquery.js
+           docs/MQTTClient_internal/html/jquery.js
+Copyright: jQuery Foundation and other contributors; Licensed MIT
+License:   __NO_LICENSE__
+
+Files:     src/MQTTAsyncUtils.h
+           src/Tree.h
+Copyright: 2009-2013 IBM Corp.
+           2009-2022 IBM Corp. and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial implementation and documentation
+
+Files:     src/Heap.c
+           src/Heap.h
+Copyright: 2009-2020 IBM Corp.
+           2009-2020 IBM Corp. and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - use tree data structure instead of list
+
+Files:     src/Proxy.c
+           src/WebSocket.h
+Copyright: 2009-2021 Diehl Metering.
+           2018-2022 Wind River Systems, Inc. and others.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Keith Holman - initial implementation and documentation
+ Sven Gambel - move WebSocket proxy support to generic proxy support
+
+Files:     src/MQTTTime.c
+           src/MQTTTime.h
+Copyright: 2020 IBM Corp.
+           2020-2021 IBM Corp. and Ian Craggs
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial implementation
+
+Files:     src/OsWrapper.c
+           src/OsWrapper.h
+Copyright: 2016-2017 logi.cals GmbH
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Gunter Raidl - timer support for VxWorks
+ Rainer Poisel - reusability
+
+Files:     test/test95.c
+           test/test_persistence.c
+Copyright: 2012-2022 IBM Corp., Ian Craggs
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - correct some compile warnings
+ Ian Craggs - add binary will message test
+ Ian Craggs - MQTT V5 updates
+ .
+ Offline buffering and automatic reconnect tests for the Paho Asynchronous MQTT C client
+
+Files:     test/test11.c
+           test/test45.c
+Copyright: 2009-2020 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - MQTT 3.1.1 support
+ Ian Craggs - test8 - failure callbacks
+ Ian Craggs - MQTT V5
+ .
+ Tests for the Paho Asynchronous MQTT C client
+
+Files:     src/MQTTPersistence.c
+           src/MQTTPersistence.h
+Copyright: 2009-2022 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - async client updates
+ Ian Craggs - fix for bug 432903 - queue persistence
+ Ian Craggs - MQTT V5 updates
+
+Files:     src/LinkedList.h
+           src/Log.h
+Copyright: 2009-2022 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - updates for the async client
+
+Files:     src/MQTTProtocolClient.h
+Copyright: 2009-2022 IBM Corp.
+License:   __HEADER___
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs, Allan Stockdill-Mander - SSL updates
+ Ian Craggs - MQTT 3.1.1 updates
+ Rong Xiang, Ian Craggs - C++ compatibility
+ Ian Craggs - add debug definition of MQTTStrdup for when needed
+
+Files:     src/MQTTPacket.h
+Copyright: 2009-2020 IBM Corp.
+License:   __HEADER___
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs, Allan Stockdill-Mander - SSL updates
+ Ian Craggs - MQTT 3.1.1 support
+ Ian Craggs - big endian Linux reversed definition
+ Ian Craggs - MQTT 5.0 support
+
+Files:     src/Thread.h
+Copyright: 2009-2022 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial implementation
+ Ian Craggs, Allan Stockdill-Mander - async client updates
+ Ian Craggs - fix for bug #420851
+ Ian Craggs - change MacOS semaphore implementation
+
+Files:     src/MQTTProtocol.h
+Copyright: 2009-2022 IBM Corp., Ian Craggs
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - MQTT 3.1.1 updates
+
+Files:     src/MQTTPacket.c
+Copyright: 2009-2022 IBM Corp. and Ian Craggs
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs, Allan Stockdill-Mander - SSL updates
+ Ian Craggs - MQTT 3.1.1 support
+ Ian Craggs - fix for issue 453
+ Ian Craggs - MQTT 5.0 support
+ .
+ Some other related functions are in the MQTTPacketOut module
+
+Files:     src/MQTTPersistenceDefault.c
+Copyright: 2009-2020 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - async client updates
+ Ian Craggs - fix for bug 484496
+ Ian Craggs - fix for issue 285
+ .
+ A directory is specified when the MQTT client is created. When the persistence is then
+
+Files:     src/MQTTAsync.c
+Copyright: 2009-2022 IBM Corp., Ian Craggs and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial implementation and documentation
+ Ian Craggs, Allan Stockdill-Mander - SSL support
+ Ian Craggs - multiple server connection support
+ Ian Craggs - fix for bug 413429 - connectionLost not called
+ Ian Craggs - fix for bug 415042 - using already freed structure
+ Ian Craggs - fix for bug 419233 - mutexes not reporting errors
+ Ian Craggs - fix for bug 420851
+ Ian Craggs - fix for bug 432903 - queue persistence
+ Ian Craggs - MQTT 3.1.1 support
+ Rong Xiang, Ian Craggs - C++ compatibility
+ Ian Craggs - fix for bug 442400: reconnecting after network cable unplugged
+ Ian Craggs - fix for bug 444934 - incorrect free in freeCommand1
+ Ian Craggs - fix for bug 445891 - assigning msgid is not thread safe
+ Ian Craggs - fix for bug 465369 - longer latency than expected
+ Ian Craggs - fix for bug 444103 - success/failure callbacks not invoked
+ Ian Craggs - fix for bug 484363 - segfault in getReadySocket
+ Ian Craggs - automatic reconnect and offline buffering (send while disconnected)
+ Ian Craggs - fix for bug 472250
+ Ian Craggs - fix for bug 486548
+ Ian Craggs - SNI support
+ Ian Craggs - auto reconnect timing fix #218
+ Ian Craggs - fix for issue #190
+ Ian Craggs - check for NULL SSL options #334
+ Ian Craggs - allocate username/password buffers #431
+ Ian Craggs - MQTT 5.0 support
+ Ian Craggs - refactor to reduce module size
+
+Files:     test/test10.c
+Copyright: 2009-2020 IBM Corp. and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - MQTT 5.0 support
+ .
+ MQTT V5 specific tests for the MQTT C client
+ .
+ - topic aliases
+ - subscription ids
+ - session expiry
+ - payload format
+ - flow control
+ - QoS 2 exchange termination
+ - request/response
+ - shared subscriptions
+ - server initiated disconnect
+ - auth packets
+ - server assigned clientid returned in a property
+ - server defined keepalive
+ - subscribe failure
+
+Files:     src/samples/CMakeLists.txt
+Copyright: 2015-2020 logi.cals GmbH and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Rainer Poisel - initial version
+ Ian Craggs - update sample names
+ *******************************************************************************/
+ .
+ Note: on OS X you should install XCode and the associated command-line tools
+ .
+ compilation/linkage settings
+
+Files:     test/test4.c
+Copyright: 2009-2022 IBM Corp., Ian Craggs
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - MQTT 3.1.1 support
+ Ian Craggs - test8 - failure callbacks
+ .
+ Tests for the Paho Asynchronous MQTT C client
+
+Files:     src/Proxy.h
+Copyright: 2009-2021 Diehl Metering.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Sven Gambel - move WebSocket proxy support to generic proxy support
+
+Files:     src/Socket.c
+Copyright: 2009-2022 IBM Corp., Ian Craggs and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial implementation and documentation
+ Ian Craggs - async client updates
+ Ian Craggs - fix for bug 484496
+ Juergen Kosel, Ian Craggs - fix for issue #135
+ Ian Craggs - issue #217
+ Ian Craggs - fix for issue #186
+ Ian Craggs - remove StackTrace print debugging calls
+ .
+ Some other related functions are in the SocketBuffer module
+
+Files:     test/thread.c
+Copyright: 2009-2020 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ .
+ Unit tests for threading
+
+Files:     src/MQTTClientPersistence.h
+Copyright: 2009-2020 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ .
+ outbound and inbound messages, in order to achieve reliable messaging.
+ .
+ The MQTT Client persists QoS1 and QoS2 messages in order to meet the
+ assurances of delivery associated with these @ref qos levels. The messages
+ are saved in persistent storage
+ The type and context of the persistence implementation are specified when
+
+Files:     src/MQTTPacketOut.h
+Copyright: 2009-2018 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs, Allan Stockdill-Mander - SSL updates
+ Ian Craggs - MQTT 3.1.1 support
+ Ian Craggs - MQTT 5.0 support
+
+Files:     doc/CMakeLists.txt
+Copyright: 2015 logi.cals GmbH
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Rainer Poisel - initial version
+ *******************************************************************************/
+ .
+ Note: on OS X you should install XCode and the associated command-line tools
+ .
+ documentation settings
+
+Files:     test/test6.c
+Copyright: 2011-2020 IBM Corp. and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ .
+ Async C client program for the MQTT v3 restart/recovery test suite.
+
+Files:     src/Clients.h
+Copyright: 2009-2022 IBM Corp. and Ian Craggs
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - add SSL support
+ Ian Craggs - fix for bug 413429 - connectionLost not called
+ Ian Craggs - change will payload to binary
+ Ian Craggs - password to binary
+ Ian Craggs - MQTT 5 support
+
+Files:     src/WebSocket.c
+Copyright: 2018-2022 Wind River Systems, Inc., Ian Craggs and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Keith Holman - initial implementation and documentation
+ Ian Craggs - use memory tracking
+ Ian Craggs - fix for one MQTT packet spread over >1 ws frame
+ Sven Gambel - move WebSocket proxy support to generic proxy support
+
+Files:     src/SSLSocket.c
+Copyright: 2009-2022 IBM Corp., Ian Craggs
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs, Allan Stockdill-Mander - initial implementation
+ Ian Craggs - fix for bug #409702
+ Ian Craggs - allow compilation for OpenSSL < 1.0
+ Ian Craggs - fix for bug #453883
+ Ian Craggs - fix for bug #480363, issue 13
+ Ian Craggs - SNI support
+ Ian Craggs - fix for issues #155, #160
+
+Files:     src/Clients.c
+Copyright: 2009-2022 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - add SSL support
+
+Files:     src/samples/paho_cs_pub.c
+Copyright: 2012-2022 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial contribution
+ Ian Craggs - add full capability
+
+Files:     src/samples/paho_c_pub.c
+Copyright: 2012-2020 IBM Corp., and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial contribution
+ Guilherme Maciel Ferreira - add keep alive option
+ Ian Craggs - add full capability
+
+Files:     src/samples/pubsub_opts.h
+Copyright: 2012-2020 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial contribution
+ Guilherme Maciel Ferreira - add keep alive option
+
+Files:     src/MQTTProtocolOut.c
+Copyright: 2009-2022 IBM Corp., Ian Craggs and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs, Allan Stockdill-Mander - SSL updates
+ Ian Craggs - fix for buffer overflow in addressPort bug #433290
+ Ian Craggs - MQTT 3.1.1 support
+ Rong Xiang, Ian Craggs - C++ compatibility
+ Ian Craggs - fix for bug 479376
+ Ian Craggs - SNI support
+ Ian Craggs - fix for issue #164
+ Ian Craggs - fix for issue #179
+ Ian Craggs - MQTT 5.0 support
+ Sven Gambel - add generic proxy support
+ .
+ Some other related functions are in the MQTTProtocolClient module
+
+Files:     test/mqttsas.py
+Copyright: 2013-2020 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial implementation and/or documentation
+ Ian Craggs - add MQTTV5 support
+ *******************************************************************
+
+Files:     test/test_sync_session_present.c
+Copyright: 2009-2020 IBM Corp. and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - Test program utilities
+ Milan Tucic - Session present test1
+ .
+ Tests for the MQ Telemetry MQTT C client
+
+Files:     CMakeLists.txt
+Copyright: 2015-2020 logi.cals GmbH and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Rainer Poisel - initial version
+ Genis Riera Perez - Add support for building debian package
+ *******************************************************************************/
+ .
+ Note: on OS X you should install XCode and the associated command-line tools
+
+Files:     src/MQTTProtocolClient.c
+Copyright: 2009-2022 IBM Corp. and Ian Craggs
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - fix for bug 413429 - connectionLost not called
+ Ian Craggs - fix for bug 421103 - trying to write to same socket, in retry
+ Rong Xiang, Ian Craggs - C++ compatibility
+ Ian Craggs - turn off DUP flag for PUBREL - MQTT 3.1.1
+ Ian Craggs - ensure that acks are not sent if write is outstanding on socket
+ Ian Craggs - MQTT 5.0 support
+ .
+ Some other related functions are in the MQTTProtocolOut module
+
+Files:     src/Thread.c
+Copyright: 2009-2022 IBM Corp. and Ian Craggs
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial implementation
+ Ian Craggs, Allan Stockdill-Mander - async client updates
+ Ian Craggs - bug #415042 - start Linux thread as disconnected
+ Ian Craggs - fix for bug #420851
+ Ian Craggs - change MacOS semaphore implementation
+ Ian Craggs - fix for clock #284
+ .
+ Used to create platform independent threading functions
+
+Files:     test/test3.c
+Copyright: 2012-2022 IBM Corp., Ian Craggs and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Allan Stockdill-Mander - initial API and implementation and/or initial documentation
+ Ian Craggs - add SSL options NULL test
+ .
+ SSL tests for the Eclipse Paho MQTT C client
+
+Files:     edl-v10
+Copyright: 2007 Eclipse Foundation, Inc. and its licensors.
+License:   __UNKNOWN__
+ Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+ .
+ Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+ Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+ Neither the name of the Eclipse Foundation, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files:     src/SocketBuffer.c
+Copyright: 2009-2022 IBM Corp., Ian Craggs and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs, Allan Stockdill-Mander - SSL updates
+ Ian Craggs - fix for issue #244, issue #20
+ .
+ Some other related functions are in the Socket module
+
+Files:     src/Log.c
+Copyright: 2009-2022 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - updates for the async client
+ Ian Craggs - fix for bug #427028
+
+Files:     test/test15.c
+Copyright: 2009-2022 IBM Corp, Ian Craggs
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - MQTT 3.1.1 support
+ Ian Craggs - change will message test back to using proxy
+ Ian Craggs - MQTT 5.0 support
+ .
+ Tests for the MQTT C client
+
+Files:     src/MQTTAsyncUtils.c
+Copyright: 2009-2022 IBM Corp., Ian Craggs and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial implementation and documentation
+ Sven Gambel - add generic proxy support
+
+Files:     src/CMakeLists.txt
+Copyright: 2015-2020 logi.cals GmbH and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Rainer Poisel - initial version
+ Ian Craggs (IBM Corp.) - merge master
+ Ian Craggs - update for MQTTV5 support
+ *******************************************************************************/
+ .
+ Note: on OS X you should install XCode and the associated command-line tools
+ .
+ compilation/linkage settings
+
+Files:     src/MQTTExportDeclarations.h
+Copyright: 2020 Andreas Walter
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Andreas Walter - initially moved export declarations into separate fle
+
+Files:     test/test_connect_destroy.c
+Copyright: 2009-2020 IBM Corp. and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Michal Kasperek - initial API and implementation and/or initial documentation
+
+Files:     src/samples/paho_cs_sub.c
+Copyright: 2012-2022 IBM Corp., and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial contribution
+ Ian Craggs - change delimiter option from char to string
+ Guilherme Maciel Ferreira - add keep alive option
+ Ian Craggs - add full capability
+
+Files:     test/test_issue373.c
+Copyright: 2012-2017 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ .
+ Test for issues 373, 385: Memory leak and segmentation fault during connection lost and reconnect
+
+Files:     src/samples/MQTTAsync_publish_time.c
+Copyright: 2012-2020 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial contribution
+ Frank Pagliughi - loop to repeatedly read and sent time values.
+ .
+ This is a somewhat contrived example to show an application that publishes
+ continuously, like a data acquisition app might do. In this case, though,
+ we don't have a sensor to read, so we use the system time as the number
+ of milliseconds since the epoch to simulate a data input.
+
+Files:     src/MQTTClient.c
+Copyright: 2009-2022 IBM Corp., Ian Craggs and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - bug 384016 - segv setting will message
+
+Files:     src/MQTTPacketOut.c
+Copyright: 2009-2021 IBM Corp. and Ian Craggs
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs, Allan Stockdill-Mander - SSL updates
+ Ian Craggs - MQTT 3.1.1 support
+ Rong Xiang, Ian Craggs - C++ compatibility
+ Ian Craggs - binary password and will payload
+ Ian Craggs - MQTT 5.0 support
+ .
+ Some other related functions are in the MQTTPacket module
+
+Files:     test/MQTTV3112.py
+Copyright: 2013-2014 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial implementation and/or documentation
+ *******************************************************************
+
+Files:     test/MQTTV5.py
+Copyright: 2013-2018 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial implementation and/or documentation
+ Ian Craggs - take MQTT 3.1.1 and create MQTT 5.0 version
+ *******************************************************************
+ .
+ Assertions are used to validate incoming data, but are omitted from outgoing packets.  This is
+ so that the tests that use this package can send invalid data for error testing.
+
+Files:     src/mutex_type.h
+Copyright: 2009-2018 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+
+Files:     src/Tree.c
+Copyright: 2009-2020 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial implementation and documentation
+ .
+ These trees can hold data of any sort, pointed to by the content pointer of the
+ Node structure.
+
+Files:     test/test9.c
+Copyright: 2012-2022 IBM Corp., Ian Craggs
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - correct some compile warnings
+ Ian Craggs - add binary will message test
+ .
+ Offline buffering and automatic reconnect tests for the Paho Asynchronous MQTT C client
+
+Files:     src/utf-8.c
+Copyright: 2009-2018 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ .
+ See page 104 of the Unicode Standard 5.0 for the list of well formed
+ UTF-8 byte sequences.
+
+Files:     src/MQTTAsync.h
+Copyright: 2009-2022 IBM Corp., Ian Craggs and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation
+ Ian Craggs, Allan Stockdill-Mander - SSL connections
+ Ian Craggs - multiple server connection support
+ Ian Craggs - MQTT 3.1.1 support
+ Ian Craggs - fix for bug 444103 - success/failure callbacks not invoked
+ Ian Craggs - automatic reconnect and offline buffering (send while disconnected)
+ Ian Craggs - binary will message
+ Ian Craggs - binary password
+ Ian Craggs - remove const on eyecatchers #168
+ Ian Craggs - MQTT 5.0
+
+Files:     src/SocketBuffer.h
+Copyright: 2009-2022 IBM Corp., Ian Craggs and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs, Allan Stockdill-Mander - SSL updates
+
+Files:     Makefile
+Copyright: 2009-2021 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Allan Stockdill-Mander - SSL updates
+ Andy Piper - various fixes
+ Ian Craggs - OSX build
+ Rainer Poisel - support for multi-core builds and cross-compilation
+ *******************************************************************************/
+ .
+ Note: on OS X you should install XCode and the associated command-line tools
+
+Files:     src/MQTTClient.h
+Copyright: 2009-2022 IBM Corp., Ian Craggs and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs, Allan Stockdill-Mander - SSL updates
+ Ian Craggs - multiple server connection support
+ Ian Craggs - MQTT 3.1.1 support
+ Ian Craggs - remove const from eyecatchers #168
+
+Files:     test/test8.c
+Copyright: 2012-2021 IBM Corp., Ian Craggs and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ .
+ Tests for the Paho MQTT Async C client
+
+Files:     test/test5.c
+Copyright: 2012-2022 IBM Corp., Ian Craggs
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Allan Stockdill-Mander - initial API and implementation and/or initial documentation
+ Ian Craggs - fix Windows includes
+ .
+ SSL tests for the Eclipse Paho Asynchronous MQTT C client
+
+Files:     test/test_mqtt4sync.c
+Copyright: 2009-2022 IBM Corp., Ian Craggs
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - MQTT 3.1.1 support
+ .
+ MQTT 3.1.1 Tests for the synchronous Paho MQTT C client
+
+Files:     src/samples/paho_c_sub.c
+Copyright: 2012-2020 IBM Corp., and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial contribution
+ Ian Craggs - fix for bug 413429 - connectionLost not called
+ Guilherme Maciel Ferreira - add keep alive option
+ Ian Craggs - add full capability
+
+Files:     test/test1.c
+Copyright: 2009-2022 IBM Corp., Ian Craggs
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - MQTT 3.1.1 support
+ Ian Craggs - change will message test back to using proxy
+ .
+ Tests for the MQ Telemetry MQTT C client
+
+Files:     test/test2.c
+Copyright: 2009-2022 IBM Corp., Ian Craggs and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - fix thread id display
+ .
+ Multi-threaded tests for the Eclipse Paho MQTT C client
+
+Files:     src/SSLSocket.h
+Copyright: 2009-2022 IBM Corp., Ian Craggs
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs, Allan Stockdill-Mander - initial implementation
+ Ian Craggs - SNI support
+ Ian Craggs - post connect checks and CApath
+
+Files:     test/sync_client_test.c
+Copyright: 2013-2020 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial implementation and/or documentation
+
+Files:     src/Socket.h
+Copyright: 2009-2022 IBM Corp., Ian Craggs and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial implementation and documentation
+ Ian Craggs - async client updates
+
+Files:     test/MQTTV311.py
+Copyright: 2013-2018 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial implementation and/or documentation
+ *******************************************************************
+ .
+ Assertions are used to validate incoming data, but are omitted from outgoing packets.  This is
+ so that the tests that use this package can send invalid data for error testing.
+
+Files:     src/MQTTProtocolOut.h
+Copyright: 2009-2022 IBM Corp., Ian Craggs, and others
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs, Allan Stockdill-Mander - SSL updates
+ Ian Craggs - MQTT 3.1.1 support
+ Ian Craggs - SNI support
+ Ian Craggs - MQTT 5.0 support
+ Sven Gambel - add generic proxy support
+
+Files:     src/LinkedList.c
+Copyright: 2009-2020 IBM Corp.
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - updates for the async client
+ .
+ These linked lists can hold data of any sort, pointed to by the content pointer of the
+ ListElement structure.  ListElements hold the points to the next and previous items in the
+ list.
+
+Files:     test/test_mqtt4async.c
+Copyright: 2009-2022 IBM Corp., Ian Craggs
+License:   __UNKNOWN__
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+ https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+ http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ Contributors:
+ Ian Craggs - initial API and implementation and/or initial documentation
+ Ian Craggs - MQTT 3.1.1 support
+ .
+ MQTT 3.1.1 Tests for the asynchronous Paho MQTT C client
+
+Files:     epl-v20
+Copyright: __NO_COPYRIGHT__ in: epl-v20
+License:   __UNKNOWN__ with unknown exception
+ Everyone is permitted to copy and distribute copies of this Agreement,
+ but in order to avoid inconsistency the Agreement is copyrighted and
+ may only be modified in the following manner. The Agreement Steward
+ reserves the right to publish new versions (including revisions) of
+ this Agreement from time to time. No one other than the Agreement
+ Steward has the right to modify this Agreement. The Eclipse Foundation
+ is the initial Agreement Steward. The Eclipse Foundation may assign the
+ responsibility to serve as the Agreement Steward to a suitable separate
+ entity. Each new version of the Agreement will be given a distinguishing
+ version number. The Program (including Contributions) may always be
+ Distributed subject to the version of the Agreement under which it was
+ received. In addition, after a new version of the Agreement is published,
+ Contributor may elect to Distribute the Program (including its
+ Contributions) under the new version.
+ .
+ Except as expressly stated in Sections 2(a) and 2(b) above, Recipient
+ receives no rights or licenses to the intellectual property of any
+ Contributor under this Agreement, whether expressly, by implication,
+ estoppel or otherwise. All rights in the Program not expressly granted
+ under this Agreement are reserved. Nothing in this Agreement is intended
+ to be enforceable by any entity that is not a Contributor or Recipient.
+ No third-party beneficiary rights are created under this Agreement.
+ .
+ Exhibit A - Form of Secondary Licenses Notice
+ .
+ "This Source Code may also be made available under the following
+ Secondary Licenses when the conditions for such availability set forth
+ in the Eclipse Public License, v. 2.0 are satisfied: {name license(s),
+ version(s), and exceptions or additional permissions here}."
+ .
+ Simply including a copy of this Agreement, including this Exhibit A
+ is not sufficient to license the Source Code under Secondary Licenses.
+ .
+ If it is not possible or desirable to put the notice in a particular
+ file, then You may include the notice in a location (such as a LICENSE
+ file in a relevant directory) where a recipient would be likely to
+ look for such a notice.
+ .
+ You may add additional accurate notices of copyright ownership.
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         .project
+#         .pydevproject
+#         .cproject
+#         about.html
+#         notice.html
+#         build.xml
+#         docs/index.html
+#         docs/MQTTAsync/html/_m_q_t_t_reason_codes_8h.html
+#         docs/MQTTAsync/html/_m_q_t_t_subscribe_opts_8h_source.html
+#         docs/MQTTAsync/html/globals_defs.html
+#         docs/MQTTAsync/html/struct_m_q_t_t_async__init__options.html
+#         docs/MQTTAsync/html/struct_m_q_t_t_async___s_s_l_options.html
+#         docs/MQTTAsync/html/_m_q_t_t_client_persistence_8h.html
+#         docs/MQTTAsync/html/offline_publish.html
+#         docs/MQTTAsync/html/subscribe.html
+#         docs/MQTTAsync/html/globals.html
+#         docs/MQTTAsync/html/struct_m_q_t_t_async__response_options.html
+#         docs/MQTTAsync/html/wildcard.html
+#         docs/MQTTAsync/html/functions_vars.html
+#         docs/MQTTAsync/html/pages.html
+#         docs/MQTTAsync/html/struct_m_q_t_t_properties.html
+#         docs/MQTTAsync/html/functions.html
+#         docs/MQTTAsync/html/struct_m_q_t_t_async__connect_options.html
+#         docs/MQTTAsync/html/_m_q_t_t_client_persistence_8h_source.html
+#         docs/MQTTAsync/html/_m_q_t_t_async_8h.html
+#         docs/MQTTAsync/html/struct_m_q_t_t_async__will_options.html
+#         docs/MQTTAsync/html/struct_m_q_t_t_property.html
+#         docs/MQTTAsync/html/struct_m_q_t_t_async__success_data5.html
+#         docs/MQTTAsync/html/annotated.html
+#         docs/MQTTAsync/html/struct_m_q_t_t_async__message.html
+#         docs/MQTTAsync/html/callbacks.html
+#         docs/MQTTAsync/html/publish.html
+#         docs/MQTTAsync/html/struct_m_q_t_t_async__name_value.html
+#         docs/MQTTAsync/html/struct_m_q_t_t_client__persistence.html
+#         docs/MQTTAsync/html/index.html
+#         docs/MQTTAsync/html/qos.html
+#         docs/MQTTAsync/html/async.html
+#         docs/MQTTAsync/html/struct_m_q_t_t_async__connect_data.html
+#         docs/MQTTAsync/html/struct_m_q_t_t_async__success_data.html
+#         docs/MQTTAsync/html/struct_m_q_t_t_async__create_options.html
+#         docs/MQTTAsync/html/globals_p.html
+#         docs/MQTTAsync/html/struct_m_q_t_t_async__failure_data5.html
+#         docs/MQTTAsync/html/_m_q_t_t_properties_8h_source.html
+#         docs/MQTTAsync/html/globals_eval.html
+#         docs/MQTTAsync/html/classes.html
+#         docs/MQTTAsync/html/struct_m_q_t_t_subscribe__options.html
+#         docs/MQTTAsync/html/_m_q_t_t_subscribe_opts_8h.html
+#         docs/MQTTAsync/html/struct_m_q_t_t_len_string.html
+#         docs/MQTTAsync/html/globals_enum.html
+#         docs/MQTTAsync/html/_m_q_t_t_async_8h_source.html
+#         docs/MQTTAsync/html/auto_reconnect.html
+#         docs/MQTTAsync/html/struct_m_q_t_t_async__failure_data.html
+#         docs/MQTTAsync/html/_m_q_t_t_reason_codes_8h_source.html
+#         docs/MQTTAsync/html/globals_type.html
+#         docs/MQTTAsync/html/globals_func.html
+#         docs/MQTTAsync/html/_m_q_t_t_properties_8h.html
+#         docs/MQTTAsync/html/struct_m_q_t_t_async__disconnect_options.html
+#         docs/MQTTAsync/html/files.html
+#         docs/MQTTAsync/html/tracing.html
+#         docs/MQTTAsync/html/search/enums_0.html
+#         docs/MQTTAsync/html/search/all_4.html
+#         docs/MQTTAsync/html/search/functions_0.html
+#         docs/MQTTAsync/html/search/variables_2.html
+#         docs/MQTTAsync/html/search/variables_e.html
+#         docs/MQTTAsync/html/search/nomatches.html
+#         docs/MQTTAsync/html/search/all_12.html
+#         docs/MQTTAsync/html/search/all_11.html
+#         docs/MQTTAsync/html/search/variables_3.html
+#         docs/MQTTAsync/html/search/all_9.html
+#         docs/MQTTAsync/html/search/pages_2.html
+#         docs/MQTTAsync/html/search/pages_5.html
+#         docs/MQTTAsync/html/search/all_0.html
+#         docs/MQTTAsync/html/search/variables_f.html
+#         docs/MQTTAsync/html/search/variables_a.html
+#         docs/MQTTAsync/html/search/all_d.html
+#         docs/MQTTAsync/html/search/all_5.html
+#         docs/MQTTAsync/html/search/all_f.html
+#         docs/MQTTAsync/html/search/pages_3.html
+#         docs/MQTTAsync/html/search/all_6.html
+#         docs/MQTTAsync/html/search/all_1.html
+#         docs/MQTTAsync/html/search/variables_c.html
+#         docs/MQTTAsync/html/search/variables_7.html
+#         docs/MQTTAsync/html/search/variables_11.html
+#         docs/MQTTAsync/html/search/variables_8.html
+#         docs/MQTTAsync/html/search/enumvalues_0.html
+#         docs/MQTTAsync/html/search/all_a.html
+#         docs/MQTTAsync/html/search/all_10.html
+#         docs/MQTTAsync/html/search/variables_b.html
+#         docs/MQTTAsync/html/search/variables_0.html
+#         docs/MQTTAsync/html/search/all_8.html
+#         docs/MQTTAsync/html/search/defines_0.html
+#         docs/MQTTAsync/html/search/typedefs_0.html
+#         docs/MQTTAsync/html/search/files_0.html
+#         docs/MQTTAsync/html/search/variables_13.html
+#         docs/MQTTAsync/html/search/variables_5.html
+#         docs/MQTTAsync/html/search/variables_6.html
+#         docs/MQTTAsync/html/search/pages_1.html
+#         docs/MQTTAsync/html/search/all_e.html
+#         docs/MQTTAsync/html/search/all_c.html
+#         docs/MQTTAsync/html/search/variables_1.html
+#         docs/MQTTAsync/html/search/pages_4.html
+#         docs/MQTTAsync/html/search/all_2.html
+#         docs/MQTTAsync/html/search/all_13.html
+#         docs/MQTTAsync/html/search/variables_d.html
+#         docs/MQTTAsync/html/search/all_b.html
+#         docs/MQTTAsync/html/search/all_3.html
+#         docs/MQTTAsync/html/search/pages_0.html
+#         docs/MQTTAsync/html/search/classes_0.html
+#         docs/MQTTAsync/html/search/variables_12.html
+#         docs/MQTTAsync/html/search/typedefs_1.html
+#         docs/MQTTAsync/html/search/all_7.html
+#         docs/MQTTAsync/html/search/variables_4.html
+#         docs/MQTTAsync/html/search/variables_9.html
+#         docs/MQTTAsync/html/search/variables_10.html
+#         docs/MQTTClient/html/_m_q_t_t_reason_codes_8h.html
+#         docs/MQTTClient/html/_m_q_t_t_subscribe_opts_8h_source.html
+#         docs/MQTTClient/html/struct_m_q_t_t_client__will_options.html
+#         docs/MQTTClient/html/struct_m_q_t_t_response.html
+#         docs/MQTTClient/html/globals_defs.html
+#         docs/MQTTClient/html/_m_q_t_t_client_8h_source.html
+#         docs/MQTTClient/html/_m_q_t_t_client_persistence_8h.html
+#         docs/MQTTClient/html/globals.html
+#         docs/MQTTClient/html/wildcard.html
+#         docs/MQTTClient/html/functions_vars.html
+#         docs/MQTTClient/html/pages.html
+#         docs/MQTTClient/html/struct_m_q_t_t_properties.html
+#         docs/MQTTClient/html/functions.html
+#         docs/MQTTClient/html/_m_q_t_t_client_persistence_8h_source.html
+#         docs/MQTTClient/html/struct_m_q_t_t_property.html
+#         docs/MQTTClient/html/annotated.html
+#         docs/MQTTClient/html/callbacks.html
+#         docs/MQTTClient/html/struct_m_q_t_t_client__init__options.html
+#         docs/MQTTClient/html/_m_q_t_t_client_8h.html
+#         docs/MQTTClient/html/struct_m_q_t_t_client___s_s_l_options.html
+#         docs/MQTTClient/html/struct_m_q_t_t_client__persistence.html
+#         docs/MQTTClient/html/index.html
+#         docs/MQTTClient/html/struct_m_q_t_t_client__name_value.html
+#         docs/MQTTClient/html/qos.html
+#         docs/MQTTClient/html/async.html
+#         docs/MQTTClient/html/struct_m_q_t_t_client__create_options.html
+#         docs/MQTTClient/html/globals_p.html
+#         docs/MQTTClient/html/struct_m_q_t_t_client__connect_options.html
+#         docs/MQTTClient/html/pubasync.html
+#         docs/MQTTClient/html/_m_q_t_t_properties_8h_source.html
+#         docs/MQTTClient/html/globals_eval.html
+#         docs/MQTTClient/html/classes.html
+#         docs/MQTTClient/html/struct_m_q_t_t_subscribe__options.html
+#         docs/MQTTClient/html/_m_q_t_t_subscribe_opts_8h.html
+#         docs/MQTTClient/html/subasync.html
+#         docs/MQTTClient/html/struct_m_q_t_t_len_string.html
+#         docs/MQTTClient/html/struct_m_q_t_t_client__message.html
+#         docs/MQTTClient/html/pubsync.html
+#         docs/MQTTClient/html/globals_enum.html
+#         docs/MQTTClient/html/_m_q_t_t_reason_codes_8h_source.html
+#         docs/MQTTClient/html/globals_type.html
+#         docs/MQTTClient/html/globals_func.html
+#         docs/MQTTClient/html/_m_q_t_t_properties_8h.html
+#         docs/MQTTClient/html/files.html
+#         docs/MQTTClient/html/tracing.html
+#         docs/MQTTClient/html/search/enums_0.html
+#         docs/MQTTClient/html/search/all_4.html
+#         docs/MQTTClient/html/search/functions_0.html
+#         docs/MQTTClient/html/search/variables_2.html
+#         docs/MQTTClient/html/search/variables_e.html
+#         docs/MQTTClient/html/search/nomatches.html
+#         docs/MQTTClient/html/search/all_12.html
+#         docs/MQTTClient/html/search/all_11.html
+#         docs/MQTTClient/html/search/variables_3.html
+#         docs/MQTTClient/html/search/all_9.html
+#         docs/MQTTClient/html/search/pages_2.html
+#         docs/MQTTClient/html/search/pages_5.html
+#         docs/MQTTClient/html/search/all_0.html
+#         docs/MQTTClient/html/search/variables_f.html
+#         docs/MQTTClient/html/search/variables_a.html
+#         docs/MQTTClient/html/search/all_d.html
+#         docs/MQTTClient/html/search/all_5.html
+#         docs/MQTTClient/html/search/all_f.html
+#         docs/MQTTClient/html/search/pages_3.html
+#         docs/MQTTClient/html/search/all_6.html
+#         docs/MQTTClient/html/search/all_1.html
+#         docs/MQTTClient/html/search/variables_c.html
+#         docs/MQTTClient/html/search/variables_7.html
+#         docs/MQTTClient/html/search/variables_11.html
+#         docs/MQTTClient/html/search/variables_8.html
+#         docs/MQTTClient/html/search/enumvalues_0.html
+#         docs/MQTTClient/html/search/all_a.html
+#         docs/MQTTClient/html/search/all_10.html
+#         docs/MQTTClient/html/search/variables_b.html
+#         docs/MQTTClient/html/search/variables_0.html
+#         docs/MQTTClient/html/search/all_8.html
+#         docs/MQTTClient/html/search/defines_0.html
+#         docs/MQTTClient/html/search/typedefs_0.html
+#         docs/MQTTClient/html/search/files_0.html
+#         docs/MQTTClient/html/search/variables_5.html
+#         docs/MQTTClient/html/search/variables_6.html
+#         docs/MQTTClient/html/search/pages_1.html
+#         docs/MQTTClient/html/search/all_e.html
+#         docs/MQTTClient/html/search/all_c.html
+#         docs/MQTTClient/html/search/variables_1.html
+#         docs/MQTTClient/html/search/pages_4.html
+#         docs/MQTTClient/html/search/all_2.html
+#         docs/MQTTClient/html/search/variables_d.html
+#         docs/MQTTClient/html/search/all_b.html
+#         docs/MQTTClient/html/search/all_3.html
+#         docs/MQTTClient/html/search/pages_0.html
+#         docs/MQTTClient/html/search/classes_0.html
+#         docs/MQTTClient/html/search/variables_12.html
+#         docs/MQTTClient/html/search/typedefs_1.html
+#         docs/MQTTClient/html/search/all_7.html
+#         docs/MQTTClient/html/search/variables_4.html
+#         docs/MQTTClient/html/search/variables_9.html
+#         docs/MQTTClient/html/search/variables_10.html
+#         docs/MQTTClient_internal/html/structMessages__coll__graph.map
+#         docs/MQTTClient_internal/html/globals_h.html
+#         docs/MQTTClient_internal/html/MQTTClient_8c_ae700c3f5cfea3813264ce95e7c8cf498_cgraph.map
+#         docs/MQTTClient_internal/html/functions_e.html
+#         docs/MQTTClient_internal/html/structUnsuback__coll__graph.map
+#         docs/MQTTClient_internal/html/structMQTTClient__willOptions.html
+#         docs/MQTTClient_internal/html/structpending__writes.html
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a2d7897d575be486bf1ed0459d7b2b8e7_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTAsync__responseOptions.html
+#         docs/MQTTClient_internal/html/MQTTClient_8c_a5390c2402f135c12826ffbf6fc261f7c_cgraph.map
+#         docs/MQTTClient_internal/html/SocketBuffer_8c_aa61a564b814b06d9cfd3fe9ce7ab1cf7_cgraph.map
+#         docs/MQTTClient_internal/html/structstackEntry.html
+#         docs/MQTTClient_internal/html/structMQTTPacket.html
+#         docs/MQTTClient_internal/html/structMQTTAsync__createOptions.html
+#         docs/MQTTClient_internal/html/functions_vars_l.html
+#         docs/MQTTClient_internal/html/functions_m.html
+#         docs/MQTTClient_internal/html/functions_vars_g.html
+#         docs/MQTTClient_internal/html/MQTTClient_8c_a6e8231e8c47f6f67f7ebbb5dcb4c69c0_cgraph.map
+#         docs/MQTTClient_internal/html/globals_a.html
+#         docs/MQTTClient_internal/html/MQTTPacket_8c_a4262b8f35885dc123f59268fb74cec3d_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c.html
+#         docs/MQTTClient_internal/html/globals_func_l.html
+#         docs/MQTTClient_internal/html/Socket_8c_a550291985042dc080825ab27b16894fb_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTAsync__successData__coll__graph.map
+#         docs/MQTTClient_internal/html/MQTTPacket_8c_a8886398fbf89872f8e593444d351a5aa_cgraph.map
+#         docs/MQTTClient_internal/html/LinkedList_8c_ad2879a10b723fb7c1f95c0ad0abdbc50_cgraph.map
+#         docs/MQTTClient_internal/html/functions_vars_w.html
+#         docs/MQTTClient_internal/html/MQTTClient_8c_a2a617c6b0492c04a4ddea592f5e53604_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTPacket_8c_a93c155059c80bd01b4a1561d9bec1d13_cgraph.map
+#         docs/MQTTClient_internal/html/structws__frame.html
+#         docs/MQTTClient_internal/html/Heap_8c_a25214c297c998eba3cfc8282b1162c69_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTPacketOut_8c_acf4b3402e224ac22ffbe74731f374fe0_cgraph.map
+#         docs/MQTTClient_internal/html/functions_g.html
+#         docs/MQTTClient_internal/html/Socket_8c_aa77cff9e8173f9b8d35d062558d0cb57_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTClient_8c_a58356c13867f18df60fd4c7ec9457c48_cgraph.map
+#         docs/MQTTClient_internal/html/structTree__coll__graph.map
+#         docs/MQTTClient_internal/html/structsocket__queue.html
+#         docs/MQTTClient_internal/html/structMQTTResponse.html
+#         docs/MQTTClient_internal/html/globals_vars.html
+#         docs/MQTTClient_internal/html/structprops__rc__parms__coll__graph.map
+#         docs/MQTTClient_internal/html/MQTTClient_8c.html
+#         docs/MQTTClient_internal/html/structList__coll__graph.map
+#         docs/MQTTClient_internal/html/structMQTTProtocol.html
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_ab9c5a22f0cbd4fa648663de7ae7118ab_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTClient__message.html
+#         docs/MQTTClient_internal/html/SocketBuffer_8c_abb5eae96f4c62d1e6fefed8d078ecba8_cgraph.map
+#         docs/MQTTClient_internal/html/functions_vars_b.html
+#         docs/MQTTClient_internal/html/LinkedList_8c_aabca387fa4b86475bc9e4da40c3977fc_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTProperties__coll__graph.map
+#         docs/MQTTClient_internal/html/structPublish.html
+#         docs/MQTTClient_internal/html/structMQTTAsync__command.html
+#         docs/MQTTClient_internal/html/Clients_8c.html
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a447b65c664ebedef8fecb70e29dc1767_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTPacket_8c_adca3afbe588ae7e6f342c5a697e4ee45_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTPersistence__qEntry__coll__graph.map
+#         docs/MQTTClient_internal/html/globals_func_r.html
+#         docs/MQTTClient_internal/html/MQTTPacket_8c.html
+#         docs/MQTTClient_internal/html/structtrace__settings__type.html
+#         docs/MQTTClient_internal/html/structSockets.html
+#         docs/MQTTClient_internal/html/utf-8_8c.html
+#         docs/MQTTClient_internal/html/globals_f.html
+#         docs/MQTTClient_internal/html/globals_u.html
+#         docs/MQTTClient_internal/html/functions_o.html
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a8514ddc8d0f346c0da19ab4d59b4062f_cgraph.map
+#         docs/MQTTClient_internal/html/globals_defs.html
+#         docs/MQTTClient_internal/html/functions_vars_u.html
+#         docs/MQTTClient_internal/html/LinkedList_8c_a8430370b2b15c56ec95bb8e7e36753a5_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTPacketOut_8c_ad05dd32a547e82e0741d9d8279568a65_cgraph.map
+#         docs/MQTTClient_internal/html/structcond__type__struct.html
+#         docs/MQTTClient_internal/html/globals_t.html
+#         docs/MQTTClient_internal/html/MQTTPacket_8c_a8167e3188a4bdcfb30c10e0d76c82afe_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a52e062f52e5a42275471eeb23040fc0e_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTClient_8c_a9a0518d9ca924d12c1329dbe3de5f2b6_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_ad2f52c0fff61c891b174d69b95bcd173_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTClient__connectOptions__coll__graph.map
+#         docs/MQTTClient_internal/html/structNodeStruct__coll__graph.map
+#         docs/MQTTClient_internal/html/functions_p.html
+#         docs/MQTTClient_internal/html/globals_n.html
+#         docs/MQTTClient_internal/html/functions_vars_d.html
+#         docs/MQTTClient_internal/html/Socket_8c_a8fac284bb799c180ef68bb5c7b4b1df4_cgraph.map
+#         docs/MQTTClient_internal/html/functions_l.html
+#         docs/MQTTClient_internal/html/MQTTPacket_8c_a28f1754fe1f090d54bc3b5687fb2dd8c_cgraph.map
+#         docs/MQTTClient_internal/html/Socket_8c_a39a32a0495e5cba033f3c7fee72ae797_cgraph.map
+#         docs/MQTTClient_internal/html/Socket_8c_af10088907080a5c517ee23ac022f6538_cgraph.map
+#         docs/MQTTClient_internal/html/globals_s.html
+#         docs/MQTTClient_internal/html/Socket_8c_a12c397b0fb6187db7a66a44041055a13_cgraph.map
+#         docs/MQTTClient_internal/html/utf-8_8c_ad2012627fca4b4bdd9f67bde49b0d1cb_cgraph.map
+#         docs/MQTTClient_internal/html/globals.html
+#         docs/MQTTClient_internal/html/MQTTClient_8c_ab8786efdd6c3a50c6ca33cfb5d8fc283_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTClient_8c_ade24f717a9b39d38b081e1d5e0db1661_cgraph.map
+#         docs/MQTTClient_internal/html/structSuback__coll__graph.map
+#         docs/MQTTClient_internal/html/globals_func_h.html
+#         docs/MQTTClient_internal/html/SSLSocket_8c.html
+#         docs/MQTTClient_internal/html/structtraceEntry.html
+#         docs/MQTTClient_internal/html/SocketBuffer_8c_a524311e577a7225a09fb944904c17886_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a4502a4b9257b32508fac87e42fb1d85a_cgraph.map
+#         docs/MQTTClient_internal/html/functions_vars_k.html
+#         docs/MQTTClient_internal/html/functions_vars.html
+#         docs/MQTTClient_internal/html/MQTTProtocolOut_8c.html
+#         docs/MQTTClient_internal/html/structListElementStruct.html
+#         docs/MQTTClient_internal/html/LinkedList_8c_a4bb7c34fe9a5832d65f530091e0fad0d_cgraph.map
+#         docs/MQTTClient_internal/html/Thread_8c.html
+#         docs/MQTTClient_internal/html/MQTTVersion_8c.html
+#         docs/MQTTClient_internal/html/MQTTPersistence_8c_adbf5881a3c6ce9bd7062182dfffe27fa_cgraph.map
+#         docs/MQTTClient_internal/html/functions.html
+#         docs/MQTTClient_internal/html/structTree.html
+#         docs/MQTTClient_internal/html/functions_vars_a.html
+#         docs/MQTTClient_internal/html/structMQTTClients.html
+#         docs/MQTTClient_internal/html/MQTTClient_8c_acdcf1aefca1dbb3d1b3d36c9bbaf3760_cgraph.map
+#         docs/MQTTClient_internal/html/Tree_8c_aa5ee1e466d266b289dc45cbd97116b83_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTProtocolOut_8c_a69083f5a059d129d1030140ec1cd3d58_cgraph.map
+#         docs/MQTTClient_internal/html/globals_func_t.html
+#         docs/MQTTClient_internal/html/structwillMessages.html
+#         docs/MQTTClient_internal/html/structMQTTAsync__nameValue.html
+#         docs/MQTTClient_internal/html/LinkedList_8c__incl.map
+#         docs/MQTTClient_internal/html/structClientStates__coll__graph.map
+#         docs/MQTTClient_internal/html/structqEntry__coll__graph.map
+#         docs/MQTTClient_internal/html/functions_vars_o.html
+#         docs/MQTTClient_internal/html/globals_func_i.html
+#         docs/MQTTClient_internal/html/structMQTTProperty.html
+#         docs/MQTTClient_internal/html/Log_8c__incl.map
+#         docs/MQTTClient_internal/html/MQTTPersistence_8c.html
+#         docs/MQTTClient_internal/html/unionHeader.html
+#         docs/MQTTClient_internal/html/MQTTPacketOut_8c_a93f6aa4b23d30f6c8c5be87b0b58e37c_cgraph.map
+#         docs/MQTTClient_internal/html/Socket_8c_ab33a53c9fce80d5dfeb26426b157034a_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTAsync__willOptions.html
+#         docs/MQTTClient_internal/html/LinkedList_8c_a5ee7cd1d29fd9299231d40c011174fcd_cgraph.map
+#         docs/MQTTClient_internal/html/functions_vars_e.html
+#         docs/MQTTClient_internal/html/globals_r.html
+#         docs/MQTTClient_internal/html/MQTTProtocolOut_8c_ad298c92c74b5f1acda774fc95e3d61c3_cgraph.map
+#         docs/MQTTClient_internal/html/structthreadEntry__coll__graph.map
+#         docs/MQTTClient_internal/html/MQTTProtocolOut_8c__incl.map
+#         docs/MQTTClient_internal/html/MQTTPersistence_8c_a3e607d17e088a493097af07e9c7b0006_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a3a1acc3bd7b09ab9d52e15e4a97c4cb2_cgraph.map
+#         docs/MQTTClient_internal/html/SocketBuffer_8c_a7ba9075e011f49302304ce7b2d8e5b59_cgraph.map
+#         docs/MQTTClient_internal/html/functions_k.html
+#         docs/MQTTClient_internal/html/functions_a.html
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a9aa163c85710d4936ae368b8b9412440_cgraph.map
+#         docs/MQTTClient_internal/html/Socket_8c_a42a217310f6f55473525764038ac367d_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTClientPersistence_8h.html
+#         docs/MQTTClient_internal/html/annotated.html
+#         docs/MQTTClient_internal/html/functions_vars_i.html
+#         docs/MQTTClient_internal/html/Heap_8c_aafff91620a02cc5f8160ee55dc1d7bf4_cgraph.map
+#         docs/MQTTClient_internal/html/structPublications.html
+#         docs/MQTTClient_internal/html/structMQTTClient__message__coll__graph.map
+#         docs/MQTTClient_internal/html/LinkedList_8c_a27e2cccab9752618ead91eafbe2a9a46_cgraph.map
+#         docs/MQTTClient_internal/html/functions_h.html
+#         docs/MQTTClient_internal/html/structMQTTProperties.html
+#         docs/MQTTClient_internal/html/structClients.html
+#         docs/MQTTClient_internal/html/structSHA__CTX__S.html
+#         docs/MQTTClient_internal/html/structMQTTClient__SSLOptions.html
+#         docs/MQTTClient_internal/html/MQTTPacketOut_8c.html
+#         docs/MQTTClient_internal/html/Tree_8c__incl.map
+#         docs/MQTTClient_internal/html/SocketBuffer_8c_a2f6bac9a46fd116e58071ff49152d716_cgraph.map
+#         docs/MQTTClient_internal/html/Socket_8c_a01e567eb0c5db3193aaa02f117fd1137_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTProtocolOut_8c_a460d021d06dd24cf975dfe20e17ab1ba_cgraph.map
+#         docs/MQTTClient_internal/html/structAck.html
+#         docs/MQTTClient_internal/html/MQTTPersistence_8c_a385b6c191dbf51652d3e3a81813848f1_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTClient__connectOptions.html
+#         docs/MQTTClient_internal/html/MQTTClient_8c_a92fa1c13f3db8399e042fbdbdfb692b3_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTPacket_8c_adec2c812b12255dab78f75163a4f1960_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTPersistence_8c__incl.map
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_ac09429577a185297d8797d791b7116a2_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTAsync__command__coll__graph.map
+#         docs/MQTTClient_internal/html/structMQTTSubscribe__options.html
+#         docs/MQTTClient_internal/html/globals_v.html
+#         docs/MQTTClient_internal/html/LinkedList_8c_abc7a28449893dfa775c2f709349968b4_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTPacket_8c_af0fcaa11ac05ce448a433a53f9cae420_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c__incl.map
+#         docs/MQTTClient_internal/html/structMQTTResponse__coll__graph.map
+#         docs/MQTTClient_internal/html/functions_n.html
+#         docs/MQTTClient_internal/html/MQTTClient_8c_a1e4d90c13a3c0705bc4a13bfe64e6525_cgraph.map
+#         docs/MQTTClient_internal/html/Thread_8c_afdd152c518f968c777012d7dfb20ef96_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTProtocolOut_8c_a5424115bf427436c2d40058f15261ed0_cgraph.map
+#         docs/MQTTClient_internal/html/structAckRequest.html
+#         docs/MQTTClient_internal/html/SocketBuffer_8c_a412a40b44b12901e63e662ac0e5be0af_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTClient_8c_aad27d07782991a4937ebf2f39a021f83_cgraph.map
+#         docs/MQTTClient_internal/html/functions_vars_t.html
+#         docs/MQTTClient_internal/html/globals_func_p.html
+#         docs/MQTTClient_internal/html/structMQTTAsync__successData5__coll__graph.map
+#         docs/MQTTClient_internal/html/SocketBuffer_8c_ae8667990c5933c3af9b90a163bba34dc_cgraph.map
+#         docs/MQTTClient_internal/html/index.html
+#         docs/MQTTClient_internal/html/LinkedList_8c_a9ed745f7ba486d16d009e86433fece7b_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTAsync__struct.html
+#         docs/MQTTClient_internal/html/functions_v.html
+#         docs/MQTTClient_internal/html/structConnect__coll__graph.map
+#         docs/MQTTClient_internal/html/MQTTClient_8c_adc7d708419664670063a0e7fd9c27bca_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTProtocolOut_8c_a0b9648549a1a132eecadb74df2e84f57_cgraph.map
+#         docs/MQTTClient_internal/html/functions_b.html
+#         docs/MQTTClient_internal/html/MQTTPersistenceDefault_8c.html
+#         docs/MQTTClient_internal/html/MQTTPacket_8c_ad89e627a37f7f7eb4355b076cd46e0b0_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a5906689ff10dc091d1a2b317295d39b0_cgraph.map
+#         docs/MQTTClient_internal/html/structpending__write.html
+#         docs/MQTTClient_internal/html/globals_m.html
+#         docs/MQTTClient_internal/html/structMQTTClients__coll__graph.map
+#         docs/MQTTClient_internal/html/LinkedList_8c_ab82181e0c1d96954f82dee67cee41296_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTPersistenceDefault_8c_a919cf4710a1f7d7ce0878599e9aa4700_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTPacket_8c_a3635fd8035177b20c478daea6bad9328_cgraph.map
+#         docs/MQTTClient_internal/html/structheap__info.html
+#         docs/MQTTClient_internal/html/structList.html
+#         docs/MQTTClient_internal/html/Heap_8c_a0f10ff94faca02a6f81953c889802954_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTPersistence__message__coll__graph.map
+#         docs/MQTTClient_internal/html/SocketBuffer_8c__incl.map
+#         docs/MQTTClient_internal/html/Heap_8c_a5f453bffe39551109e282c904a6f2902_cgraph.map
+#         docs/MQTTClient_internal/html/structSockets__coll__graph.map
+#         docs/MQTTClient_internal/html/SocketBuffer_8c_afcc9b9b6bd255b0a6e4c7e4f5a36bb37_cgraph.map
+#         docs/MQTTClient_internal/html/functions_s.html
+#         docs/MQTTClient_internal/html/structnetworkHandles__coll__graph.map
+#         docs/MQTTClient_internal/html/functions_r.html
+#         docs/MQTTClient_internal/html/Heap_8c_a59e53a989d69c3da767487596d9bfa1f_cgraph.map
+#         docs/MQTTClient_internal/html/globals_l.html
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a362e0560d6f4f0e50237664a1a8e89a7_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTClient_8c_a46bdb532d2153110ccffb2f0748d1ba5_cgraph.map
+#         docs/MQTTClient_internal/html/globals_func_u.html
+#         docs/MQTTClient_internal/html/structqEntry.html
+#         docs/MQTTClient_internal/html/functions_vars_p.html
+#         docs/MQTTClient_internal/html/structframeData.html
+#         docs/MQTTClient_internal/html/LinkedList_8c_ab2bcc1897abf1d98490ea81c474dba52_cgraph.map
+#         docs/MQTTClient_internal/html/structClientStates.html
+#         docs/MQTTClient_internal/html/Socket_8c_ac176152ef036b6cfd7330a9481a7b2ed_cgraph.map
+#         docs/MQTTClient_internal/html/functions_vars_n.html
+#         docs/MQTTClient_internal/html/MQTTClient_8c_a9defda2979f6fedaae64fd85f5c2f617_cgraph.map
+#         docs/MQTTClient_internal/html/LinkedList_8c_acad319e9ce896ff1fff30ddbeb06d22d_cgraph.map
+#         docs/MQTTClient_internal/html/globals_c.html
+#         docs/MQTTClient_internal/html/structLog__nameValue.html
+#         docs/MQTTClient_internal/html/utf-8_8c__incl.map
+#         docs/MQTTClient_internal/html/functions_vars_s.html
+#         docs/MQTTClient_internal/html/MQTTPersistenceDefault_8c__incl.map
+#         docs/MQTTClient_internal/html/Socket_8c_a9da80ce7e69ae76dee95c94a2349c462_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTAsync__message.html
+#         docs/MQTTClient_internal/html/MQTTPacket_8c__incl.map
+#         docs/MQTTClient_internal/html/MQTTPacket_8c_a58feb89ee5616f2ea6d222bbbef927bb_cgraph.map
+#         docs/MQTTClient_internal/html/globals_p.html
+#         docs/MQTTClient_internal/html/SocketBuffer_8c_a999ec229faa4b2e2c0f7db87693bc1f8_cgraph.map
+#         docs/MQTTClient_internal/html/structprops__rc__parms.html
+#         docs/MQTTClient_internal/html/MQTTPacket_8c_a908f81381b1720e4a53d15c1c4690f5c_cgraph.map
+#         docs/MQTTClient_internal/html/functions_vars_m.html
+#         docs/MQTTClient_internal/html/globals_func_f.html
+#         docs/MQTTClient_internal/html/functions_i.html
+#         docs/MQTTClient_internal/html/functions_c.html
+#         docs/MQTTClient_internal/html/structMQTTAsync__queuedCommand__coll__graph.map
+#         docs/MQTTClient_internal/html/structMQTTAsync__successData.html
+#         docs/MQTTClient_internal/html/Socket_8c.html
+#         docs/MQTTClient_internal/html/structMQTTAsync__disconnectOptions.html
+#         docs/MQTTClient_internal/html/globals_b.html
+#         docs/MQTTClient_internal/html/structMQTTAsync__successData5.html
+#         docs/MQTTClient_internal/html/functions_d.html
+#         docs/MQTTClient_internal/html/structMQTTClient__nameValue.html
+#         docs/MQTTClient_internal/html/MQTTPacketOut_8c__incl.map
+#         docs/MQTTClient_internal/html/SocketBuffer_8c.html
+#         docs/MQTTClient_internal/html/structUnsuback.html
+#         docs/MQTTClient_internal/html/utf-8_8c_a4f3cf77538d867bb5b421bcb687dccdf_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTClient_8c_a3c0ca97b393eee10d4f441ba68830e83_cgraph.map
+#         docs/MQTTClient_internal/html/structnameToType.html
+#         docs/MQTTClient_internal/html/structMQTTProperty__coll__graph.map
+#         docs/MQTTClient_internal/html/MQTTPersistence_8c_a568adcd6ad3542d6f631a7f7a2e682e5_cgraph.map
+#         docs/MQTTClient_internal/html/structConnect.html
+#         docs/MQTTClient_internal/html/structMQTTAsync__struct__coll__graph.map
+#         docs/MQTTClient_internal/html/MQTTPacket_8c_af922033c495b05fe4242afc54211f20d_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTPersistence_8c_a75e756280e499db530896c5b74b8d3b5_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTPacketOut_8c_aee4b3e106128629671828ae7bfa70850_cgraph.map
+#         docs/MQTTClient_internal/html/functions_w.html
+#         docs/MQTTClient_internal/html/structPublish__coll__graph.map
+#         docs/MQTTClient_internal/html/globals_func_w.html
+#         docs/MQTTClient_internal/html/LinkedList_8c.html
+#         docs/MQTTClient_internal/html/structMQTTAsync__message__coll__graph.map
+#         docs/MQTTClient_internal/html/structMQTTClient__init__options.html
+#         docs/MQTTClient_internal/html/functions_vars_q.html
+#         docs/MQTTClient_internal/html/Messages_8c.html
+#         docs/MQTTClient_internal/html/MQTTPacket_8c_a9ebcf93ff2ba3bd103f016c975e9c9c4_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTAsync__SSLOptions.html
+#         docs/MQTTClient_internal/html/structMQTTPersistence__qEntry.html
+#         docs/MQTTClient_internal/html/functions_vars_r.html
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_ac753a3ad12292a0a9c2f4343bd33817e_cgraph.map
+#         docs/MQTTClient_internal/html/SocketBuffer_8c_a8b7b6acbf2ec65796c32da7fd55c3ee8_cgraph.map
+#         docs/MQTTClient_internal/html/classes.html
+#         docs/MQTTClient_internal/html/globals_d.html
+#         docs/MQTTClient_internal/html/MQTTClient_8c_a50abbce720d50b9f84b97ff9fa1f546d_cgraph.map
+#         docs/MQTTClient_internal/html/globals_func_s.html
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_aa9f454819a84c7a43009253fabcea3f3_cgraph.map
+#         docs/MQTTClient_internal/html/Heap_8c__incl.map
+#         docs/MQTTClient_internal/html/MQTTClient_8c_a9c1c28258f0d5c6a44ff53a98618f5f3_cgraph.map
+#         docs/MQTTClient_internal/html/globals_func_m.html
+#         docs/MQTTClient_internal/html/globals_i.html
+#         docs/MQTTClient_internal/html/functions_vars_v.html
+#         docs/MQTTClient_internal/html/structSuback.html
+#         docs/MQTTClient_internal/html/Clients_8c__incl.map
+#         docs/MQTTClient_internal/html/LinkedList_8c_a276950531b3f54e0dda27d597572c192_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTClient__persistence.html
+#         docs/MQTTClient_internal/html/functions_vars_c.html
+#         docs/MQTTClient_internal/html/structMQTTAsync__connectData.html
+#         docs/MQTTClient_internal/html/structMQTTAsync__failureData.html
+#         docs/MQTTClient_internal/html/MQTTClient_8c__incl.map
+#         docs/MQTTClient_internal/html/structMQTTAsync__connectOptions.html
+#         docs/MQTTClient_internal/html/MQTTPacket_8c_a8b93325a6a336406497b20b489d6c46a_cgraph.map
+#         docs/MQTTClient_internal/html/structnetworkHandles.html
+#         docs/MQTTClient_internal/html/globals_w.html
+#         docs/MQTTClient_internal/html/Heap_8c_a699e6722cc8f195f853f09ac274413a3_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTClient_8c_a3cd7a94b48d1d9c6b8af4b9203d69d37_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTClient_8c_aa8731be3dbc6a25f41f037f8bbbb054b_cgraph.map
+#         docs/MQTTClient_internal/html/structConnack__coll__graph.map
+#         docs/MQTTClient_internal/html/graph_legend.html
+#         docs/MQTTClient_internal/html/MQTTPacketOut_8c_a90212ed29c311f52a1dce0617133b1a7_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a68e5f17517e75326c0869a22c7995358_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a89588f085edc5cee4eb650e8ad114df4_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTPacket__coll__graph.map
+#         docs/MQTTClient_internal/html/MQTTClient_8c_a5e0cfa14237d7557bee2a59747ecadd3_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTProtocol__coll__graph.map
+#         docs/MQTTClient_internal/html/MQTTClient_8c_af35ab7375435f7b6388c5ff4610dad3d_cgraph.map
+#         docs/MQTTClient_internal/html/structClients__coll__graph.map
+#         docs/MQTTClient_internal/html/functions_f.html
+#         docs/MQTTClient_internal/html/MQTTPersistence_8c_a65b64467da967b6930966b98f249406e_cgraph.map
+#         docs/MQTTClient_internal/html/Messages_8c__incl.map
+#         docs/MQTTClient_internal/html/structMQTTAsync__responseOptions__coll__graph.map
+#         docs/MQTTClient_internal/html/structMQTTAsync__init__options.html
+#         docs/MQTTClient_internal/html/functions_t.html
+#         docs/MQTTClient_internal/html/functions_vars_f.html
+#         docs/MQTTClient_internal/html/Socket_8c_aa24d7c85b03f09f16c78de0c1a9b3580_cgraph.map
+#         docs/MQTTClient_internal/html/Socket_8c__incl.map
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a900fa28a8774ad6f5535104bb62e7abf_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTAsync__disconnectOptions__coll__graph.map
+#         docs/MQTTClient_internal/html/Log_8c.html
+#         docs/MQTTClient_internal/html/MQTTPacket_8c_ae1ec2d8714335c6ec88c93e957b644d2_cgraph.map
+#         docs/MQTTClient_internal/html/structConnack.html
+#         docs/MQTTClient_internal/html/MQTTClient_8c_ae54936bf7680dcde353e6fc785a44461_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_afbf121be11a48fcda3e0d639bc47472b_cgraph.map
+#         docs/MQTTClient_internal/html/Heap_8c.html
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a0fa824f9702cb6b0d7c800fd65198fce_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a0f86c2cc2debfa39e275d3c76d5d0073_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTAsync__failureData5.html
+#         docs/MQTTClient_internal/html/Thread_8c__incl.map
+#         docs/MQTTClient_internal/html/MQTTPacket_8c_a51f58f1c7864f9fe87b55cc6ccb10129_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTVersion_8c__incl.map
+#         docs/MQTTClient_internal/html/functions_vars_h.html
+#         docs/MQTTClient_internal/html/structMQTTClient__createOptions.html
+#         docs/MQTTClient_internal/html/globals_type.html
+#         docs/MQTTClient_internal/html/Tree_8c.html
+#         docs/MQTTClient_internal/html/Tree_8c_afa8473167abb71831644bf8a322bc3b6_cgraph.map
+#         docs/MQTTClient_internal/html/Socket_8c_a457d9a6a9d8e886c46fcd0c096f45614_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTAsync__failureData5__coll__graph.map
+#         docs/MQTTClient_internal/html/structNodeStruct.html
+#         docs/MQTTClient_internal/html/globals_func.html
+#         docs/MQTTClient_internal/html/MQTTPersistenceDefault_8c_a64e0c1a2fd06375b975d6643175572d8_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTLenString.html
+#         docs/MQTTClient_internal/html/structMQTTPersistence__message.html
+#         docs/MQTTClient_internal/html/MQTTProtocolOut_8c_a4f914518a8e2d68cc9d9fbb2c22cdf6f_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTAsync__connectOptions__coll__graph.map
+#         docs/MQTTClient_internal/html/globals_q.html
+#         docs/MQTTClient_internal/html/structPacketBuffers.html
+#         docs/MQTTClient_internal/html/structstorageElement.html
+#         docs/MQTTClient_internal/html/MQTTPacket_8c_a9dd0446112e7bc982f8e3bb8bbb6b409_cgraph.map
+#         docs/MQTTClient_internal/html/structMessages.html
+#         docs/MQTTClient_internal/html/structthreadEntry.html
+#         docs/MQTTClient_internal/html/MQTTClientPersistence_8h__dep__incl.map
+#         docs/MQTTClient_internal/html/MQTTPersistence_8c_aba48f1a44c540fa37bca207cae3cbbd3_cgraph.map
+#         docs/MQTTClient_internal/html/functions_q.html
+#         docs/MQTTClient_internal/html/Socket_8c_a0e0f2981efa6caf604e8f0fc1072af90_cgraph.map
+#         docs/MQTTClient_internal/html/Socket_8c_accf7d8d1529e31b2ad8286627cb662c0_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTPacket_8c_aa9e17261b4d09d802dba6a65bcdc44fa_cgraph.map
+#         docs/MQTTClient_internal/html/MQTTPacketOut_8c_ad3c3f0919760286998e9b9eafaa47a36_cgraph.map
+#         docs/MQTTClient_internal/html/files.html
+#         docs/MQTTClient_internal/html/MQTTProtocolClient_8c_a218a69c333badc4a61b321bc830ac1e0_cgraph.map
+#         docs/MQTTClient_internal/html/functions_u.html
+#         docs/MQTTClient_internal/html/structListElementStruct__coll__graph.map
+#         docs/MQTTClient_internal/html/structAck__coll__graph.map
+#         docs/MQTTClient_internal/html/MQTTPacketOut_8c_a1ad4c9b76c6ab88c394ee925eb4dcd44_cgraph.map
+#         docs/MQTTClient_internal/html/structMQTTAsync__queuedCommand.html
+#         docs/MQTTClient_internal/html/structpending__write__coll__graph.map
+#         docs/MQTTClient_internal/html/search/defines_2.html
+#         docs/MQTTClient_internal/html/search/all_4.html
+#         docs/MQTTClient_internal/html/search/all_15.html
+#         docs/MQTTClient_internal/html/search/classes_9.html
+#         docs/MQTTClient_internal/html/search/functions_0.html
+#         docs/MQTTClient_internal/html/search/variables_2.html
+#         docs/MQTTClient_internal/html/search/all_16.html
+#         docs/MQTTClient_internal/html/search/files_5.html
+#         docs/MQTTClient_internal/html/search/functions_9.html
+#         docs/MQTTClient_internal/html/search/variables_e.html
+#         docs/MQTTClient_internal/html/search/nomatches.html
+#         docs/MQTTClient_internal/html/search/all_12.html
+#         docs/MQTTClient_internal/html/search/classes_c.html
+#         docs/MQTTClient_internal/html/search/all_11.html
+#         docs/MQTTClient_internal/html/search/variables_3.html
+#         docs/MQTTClient_internal/html/search/all_9.html
+#         docs/MQTTClient_internal/html/search/classes_8.html
+#         docs/MQTTClient_internal/html/search/all_0.html
+#         docs/MQTTClient_internal/html/search/functions_2.html
+#         docs/MQTTClient_internal/html/search/variables_f.html
+#         docs/MQTTClient_internal/html/search/variables_a.html
+#         docs/MQTTClient_internal/html/search/all_d.html
+#         docs/MQTTClient_internal/html/search/all_5.html
+#         docs/MQTTClient_internal/html/search/all_f.html
+#         docs/MQTTClient_internal/html/search/classes_b.html
+#         docs/MQTTClient_internal/html/search/files_1.html
+#         docs/MQTTClient_internal/html/search/all_6.html
+#         docs/MQTTClient_internal/html/search/functions_a.html
+#         docs/MQTTClient_internal/html/search/all_1.html
+#         docs/MQTTClient_internal/html/search/variables_c.html
+#         docs/MQTTClient_internal/html/search/variables_7.html
+#         docs/MQTTClient_internal/html/search/classes_7.html
+#         docs/MQTTClient_internal/html/search/functions_1.html
+#         docs/MQTTClient_internal/html/search/defines_1.html
+#         docs/MQTTClient_internal/html/search/variables_11.html
+#         docs/MQTTClient_internal/html/search/variables_8.html
+#         docs/MQTTClient_internal/html/search/files_3.html
+#         docs/MQTTClient_internal/html/search/all_a.html
+#         docs/MQTTClient_internal/html/search/files_4.html
+#         docs/MQTTClient_internal/html/search/functions_b.html
+#         docs/MQTTClient_internal/html/search/functions_4.html
+#         docs/MQTTClient_internal/html/search/all_10.html
+#         docs/MQTTClient_internal/html/search/variables_b.html
+#         docs/MQTTClient_internal/html/search/functions_5.html
+#         docs/MQTTClient_internal/html/search/functions_6.html
+#         docs/MQTTClient_internal/html/search/variables_0.html
+#         docs/MQTTClient_internal/html/search/all_8.html
+#         docs/MQTTClient_internal/html/search/all_14.html
+#         docs/MQTTClient_internal/html/search/defines_0.html
+#         docs/MQTTClient_internal/html/search/typedefs_0.html
+#         docs/MQTTClient_internal/html/search/files_0.html
+#         docs/MQTTClient_internal/html/search/classes_1.html
+#         docs/MQTTClient_internal/html/search/variables_13.html
+#         docs/MQTTClient_internal/html/search/functions_7.html
+#         docs/MQTTClient_internal/html/search/variables_5.html
+#         docs/MQTTClient_internal/html/search/variables_6.html
+#         docs/MQTTClient_internal/html/search/variables_14.html
+#         docs/MQTTClient_internal/html/search/all_e.html
+#         docs/MQTTClient_internal/html/search/classes_3.html
+#         docs/MQTTClient_internal/html/search/all_c.html
+#         docs/MQTTClient_internal/html/search/functions_8.html
+#         docs/MQTTClient_internal/html/search/files_6.html
+#         docs/MQTTClient_internal/html/search/classes_2.html
+#         docs/MQTTClient_internal/html/search/variables_1.html
+#         docs/MQTTClient_internal/html/search/variables_16.html
+#         docs/MQTTClient_internal/html/search/classes_a.html
+#         docs/MQTTClient_internal/html/search/functions_3.html
+#         docs/MQTTClient_internal/html/search/all_2.html
+#         docs/MQTTClient_internal/html/search/classes_6.html
+#         docs/MQTTClient_internal/html/search/all_13.html
+#         docs/MQTTClient_internal/html/search/variables_15.html
+#         docs/MQTTClient_internal/html/search/variables_d.html
+#         docs/MQTTClient_internal/html/search/all_b.html
+#         docs/MQTTClient_internal/html/search/classes_4.html
+#         docs/MQTTClient_internal/html/search/all_3.html
+#         docs/MQTTClient_internal/html/search/files_2.html
+#         docs/MQTTClient_internal/html/search/pages_0.html
+#         docs/MQTTClient_internal/html/search/classes_0.html
+#         docs/MQTTClient_internal/html/search/variables_12.html
+#         docs/MQTTClient_internal/html/search/typedefs_1.html
+#         docs/MQTTClient_internal/html/search/all_7.html
+#         docs/MQTTClient_internal/html/search/variables_4.html
+#         docs/MQTTClient_internal/html/search/classes_5.html
+#         docs/MQTTClient_internal/html/search/variables_9.html
+#         docs/MQTTClient_internal/html/search/variables_10.html
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: LICENSE
+ Eclipse Public License - v 2.0
+ .
+ This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v2.0
+ and Eclipse Distribution License v1.0 which accompany this distribution.
+ .
+ The Eclipse Public License is available at
+   https://www.eclipse.org/legal/epl-2.0/
+ and the Eclipse Distribution License is available at
+   http://www.eclipse.org/org/documents/edl-v10.php.
+ .
+ For an explanation of what dual-licensing means to you, see:
+ https://www.eclipse.org/legal/eplfaq.php#DUALLIC

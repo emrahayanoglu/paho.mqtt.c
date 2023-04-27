@@ -1,0 +1,17 @@
+Source: paho.mqtt.c
+Section: libs
+Priority: optional
+Maintainer: Emrah Ayanoglu <emrah@cheetahtech.co>
+Build-Depends: cmake, debhelper-compat (= 12), libssl-dev
+Standards-Version: 4.5.0
+Homepage: https://github.com/emrahayanoglu/paho.mqtt.c
+
+Package: paho.mqtt.c
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: This code builds libraries 
+which enable applications to connect to 
+an MQTT broker to publish messages, and 
+to subscribe to topics and receive 
+published messages.
