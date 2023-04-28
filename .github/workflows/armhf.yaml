@@ -17,5 +17,5 @@ jobs:
 
       - uses: actions/upload-artifact@v3
         with:
-          name: ${{ steps.build.outputs.path }}
-          path: ${{ steps.build.outputs.path }}
+          name: ${{ github.repository }}-${{ github.ref_name }}-armhf 
+          path: *.deb
