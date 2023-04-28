@@ -9,13 +9,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: emrahayanoglu/build-dpkg-buster@master
+      - uses: emrahayanoglu/build-dpkg-buster@debian-lib-build
         id: build
         with:
           architecture: arm64
           args: --unsigned-source --unsigned-changes
 
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v3
         with:
-          name: ${{ steps.build.outputs.filename }}
-          path: ${{ steps.build.outputs.filename }}
+          name: ${{ steps.build.outputs.path }}
+          path: ${{ steps.build.outputs.path }}

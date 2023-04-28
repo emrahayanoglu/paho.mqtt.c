@@ -1,6 +1,5 @@
 paho.mqtt.c (1.3.12-1) UNRELEASED; urgency=low
 
-  * Initial release. Closes: #nnnn
-    <nnnn is the bug number of your ITP>
+  * Initial Debian Packaging
 
- -- Emrah Ayanoglu <>  Thu, 27 Apr 2023 18:51:09 +0300
+ -- Emrah Ayanoglu <emrah@cheetahtech.co>  Thu, 27 Apr 2023 18:51:09 +0300
