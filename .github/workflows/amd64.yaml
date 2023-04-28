@@ -17,4 +17,4 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: ${{ github.repository }}-${{ github.ref_name }}-armhf 
-          path: /*.deb
+          path: workspace/*.deb
